@@ -10,17 +10,24 @@
 <div class="container">
     <h1>Trivia Quiz</h1>
 
-    <!-- Sezione per visualizzare il numero della domanda corrente -->
+    <!-- Contatore della domanda corrente -->
     <div id="question-counter" class="question-counter">Domanda 1 di 30</div>
 
+    <!-- Area del quiz -->
     <div id="quiz-container">
         <div id="question" class="question">Loading question...</div>
         <div id="answers" class="answers"></div>
     </div>
 
+    <!-- Risultato finale -->
     <div id="result" class="result hidden">
         <p>Game Over! Hai totalizzato: <span id="final-score">0</span> punti!</p>
-        <button id="restart" class="restart">Restart</button>
+    </div>
+
+    <!-- Contenitore per i pulsanti -->
+    <div class="button-container">
+        <button id="restart" class="restart">Reset</button>
+        <button id="next-question" class="hidden">Prosegui</button>
     </div>
 </div>
 
