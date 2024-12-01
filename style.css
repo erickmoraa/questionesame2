@@ -1,7 +1,7 @@
-/* Impostazioni generali per il body */
+/* Impostazioni generali */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #FFB6C1, #6A5ACD); /* Gradiente di sfondo */
+    background: linear-gradient(135deg, #FFB6C1, #6A5ACD);
     color: #333;
     display: flex;
     justify-content: center;
@@ -11,9 +11,9 @@ body {
     padding: 0;
 }
 
-/* Contenitore del quiz */
+/* Contenitore principale */
 .container {
-    width: 90%; /* Adatta al 90% della larghezza dello schermo */
+    width: 90%;
     max-width: 600px;
     background: #ffffff;
     padding: 30px;
@@ -21,9 +21,9 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: box-shadow 0.3s ease;
+    margin: 0 auto;
 }
 
-/* Rendi la container più interattiva con l'hover */
 .container:hover {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
@@ -33,7 +33,7 @@ h1 {
     font-size: 40px;
     font-weight: bold;
     color: #ffffff;
-    background: linear-gradient(45deg, #FF6F61, #4CAF50); /* Gradiente di colori */
+    background: linear-gradient(45deg, #FF6F61, #4CAF50);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -41,14 +41,13 @@ h1 {
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-/* Effetto hover per il titolo */
 h1:hover {
-    transform: scale(1.1); /* Ingrandisce il titolo */
-    background-color: #007BFF; /* Cambia il colore al passaggio del mouse */
+    transform: scale(1.1);
+    background-color: #007BFF;
     cursor: pointer;
 }
 
-/* Contatore delle domande */
+/* Contatore della domanda */
 #question-counter {
     font-size: 18px;
     margin-bottom: 20px;
@@ -56,7 +55,7 @@ h1:hover {
     color: #444;
 }
 
-/* Domanda e risposte */
+/* Area delle domande */
 .question {
     font-size: 18px;
     margin-bottom: 20px;
@@ -77,94 +76,79 @@ h1:hover {
     transition: background-color 0.3s, transform 0.3s ease;
 }
 
-/* Effetto hover per i pulsanti */
 .answers button:hover {
     background-color: #f0f0f0;
-    transform: translateY(-3px); /* Solleva il pulsante al passaggio del mouse */
+    transform: translateY(-3px);
 }
 
-/* Colore verde per le risposte corrette */
 .answers button.correct {
     background-color: #4CAF50;
     color: white;
     border: 1px solid #4CAF50;
 }
 
-/* Colore rosso per le risposte errate */
 .answers button.incorrect {
     background-color: #f44336;
     color: white;
     border: 1px solid #f44336;
 }
 
-/* Risultati finali */
+/* Risultato finale */
 .result {
     font-size: 20px;
     margin-top: 20px;
     color: #333;
 }
 
-/* Pulsante di restart */
-.restart {
-    margin-top: 20px;
+/* Pulsanti */
+button {
     padding: 12px 24px;
     font-size: 16px;
-    background-color: #007BFF;
-    color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Hover sul pulsante restart */
+/* Pulsante Reset */
+.restart {
+    background-color: #007BFF;
+    color: white;
+    margin-right: 10px;
+}
+
 .restart:hover {
     background-color: #0056b3;
+    transform: translateY(-3px);
 }
 
-/* MEDIA QUERY per dispositivi più piccoli (smartphone) */
+/* Pulsante Prosegui */
+.hidden {
+    display: none;
+}
+
+#next-question {
+    background-color: #28a745;
+    color: white;
+}
+
+#next-question:hover {
+    background-color: #218838;
+    transform: translateY(-3px);
+}
+
+/* Contenitore pulsanti */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Media query per dispositivi più piccoli */
 @media (max-width: 600px) {
-    h1 {
-        font-size: 30px; /* Riduce la dimensione del titolo su smartphone */
-        padding: 15px;
-    }
-
-    .container {
-        padding: 15px; /* Riduce il padding su dispositivi più piccoli */
-    }
-
-    .question {
-        font-size: 16px; /* Riduce la dimensione della domanda */
-    }
-
-    .answers button {
-        padding: 10px; /* Riduce la dimensione dei pulsanti */
-        font-size: 14px; /* Riduce la dimensione del testo sui pulsanti */
-    }
-
-    #question-counter {
-        font-size: 16px; /* Riduce la dimensione del contatore */
+    .button-container {
+        flex-direction: column;
+        gap: 10px;
     }
 }
 
-/* MEDIA QUERY per tablet (schermi medi) */
-@media (max-width: 768px) {
-    .container {
-        width: 80%; /* Aumenta la larghezza del contenitore su tablet */
-    }
-
-    h1 {
-        font-size: 35px; /* Mantiene una dimensione media per il titolo */
-    }
-}
-
-/* MEDIA QUERY per schermi grandi (desktop) */
-@media (min-width: 1024px) {
-    .container {
-        width: 60%; /* Riduce la larghezza su schermi più grandi */
-    }
-
-    h1 {
-        font-size: 45px; /* Titolo più grande su desktop */
-    }
-}
