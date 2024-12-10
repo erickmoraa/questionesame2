@@ -12,7 +12,18 @@ function shuffle(array) {
     return array;
 }
 
-// Seleziona casualmente un numero specifico di elementi da un array
+// Seleziona casualmente una domanda da ciascun blocco di 10
+function getQuestionsByBlocks(data, blockSize) {
+    const selected = [];
+    for (let i = 0; i < data.length; i += blockSize) {
+        const block = data.slice(i, i + blockSize);
+        const randomQuestion = shuffle(block)[0]; // Seleziona una domanda casuale dal blocco
+        selected.push(randomQuestion);
+    }
+    return selected;
+}
+
+// Seleziona casualmente un numero specifico di domande da un array
 function getRandomQuestions(group, count) {
     return shuffle(group).slice(0, count);
 }
@@ -21,22 +32,14 @@ function getRandomQuestions(group, count) {
 fetch('question.json')
     .then(response => response.json())
     .then(data => {
-        // Suddividi le domande nei quattro gruppi
-        const group1 = data.slice(0, 70); // Domande 1-70
-        const group2 = data.slice(70, 140); // Domande 71-140
-        const group3 = data.slice(140, 210); // Domande 141-210
-        const group4 = data.slice(210, 270); // Domande 211-270
+        // Suddividi le domande in blocchi di 10 e seleziona 27 domande
+        const questionsFromBlocks = getQuestionsByBlocks(data, 10); // Una domanda da ogni blocco di 10
 
-        // Seleziona casualmente le domande dai gruppi
-        const selectedQuestions = [
-            ...getRandomQuestions(group1, 6),  // 6 domande dal gruppo 1
-            ...getRandomQuestions(group2, 7), // 7 domande dal gruppo 2
-            ...getRandomQuestions(group3, 10), // 10 domande dal gruppo 3
-            ...getRandomQuestions(group4, 7)  // 7 domande dal gruppo 4
-        ];
+        // Seleziona 3 domande casuali dal blocco 141-210 (indice 140-209)
+        const questionsFromSpecificBlock = getRandomQuestions(data.slice(140, 210), 3);
 
-        // Mescola le domande selezionate
-        questions = shuffle(selectedQuestions);
+        // Combina le domande selezionate
+        questions = shuffle([...questionsFromBlocks, ...questionsFromSpecificBlock]);
 
         startQuiz();
     })
@@ -98,7 +101,6 @@ function checkAnswer(selectedKey) {
     const feedbackElement = document.getElementById('feedback');
     feedbackElement.textContent = question.explanation;
 
-    // Mostra il pulsante per proseguire
     document.getElementById('next-question').classList.remove('hidden');
 }
 
@@ -114,4 +116,3 @@ function endGame() {
     document.getElementById('result').classList.remove('hidden'); // Mostra il risultato
     document.getElementById('final-score').textContent = `Game Over! Hai totalizzato ${score} punti su ${totalQuestions}!`;
 }
-
