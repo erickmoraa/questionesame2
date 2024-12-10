@@ -1,0 +1,3259 @@
+[
+    {
+        "id": 1,
+        "question": "Qual è il significato del termine 'comunicazione digitale'?",
+        "options": {
+            "A": "Comunicazione di dati utilizzando segnali analogici.",
+            "B": "Comunicazione di informazioni rappresentate in forma numerica attraverso mezzi elettronici.",
+            "C": "Comunicazione orale tra persone tramite dispositivi.",
+            "D": "Comunicazione utilizzando solo codici binari."
+        },
+        "correctAnswer": "B",
+        "explanation": "La comunicazione digitale implica la trasmissione di informazioni numeriche (digitali) su mezzi elettronici."
+    },
+    {
+        "id": 2,
+        "question": "Chi è considerato uno dei fondatori dell'informatica moderna?",
+        "options": {
+            "A": "Mark Weiser.",
+            "B": "Steve Jobs.",
+            "C": "Alan Turing.",
+            "D": "Charles Babbage."
+        },
+        "correctAnswer": "C",
+        "explanation": "Alan Turing ha introdotto il concetto di macchina universale ed è noto per il 'Test di Turing', centrale per l'informatica moderna."
+    },
+    {
+        "id": 3,
+        "question": "Cosa descrive la 'Piramide DIKW'?",
+        "options": {
+            "A": "Una gerarchia tra utenti digitali.",
+            "B": "La relazione tra dati, informazioni, conoscenza e saggezza.",
+            "C": "Una scala di tecnologie ICT.",
+            "D": "Un modello di comunicazione analogica."
+        },
+        "correctAnswer": "B",
+        "explanation": "La piramide DIKW rappresenta la progressione dai dati grezzi alla saggezza esperienziale, evidenziando come le informazioni evolvono attraverso livelli di comprensione."
+    },
+    {
+        "id": 4,
+        "question": "Qual è l'obiettivo principale del pensiero computazionale secondo Jeannette Wing?",
+        "options": {
+            "A": "Sviluppare algoritmi complessi.",
+            "B": "Applicare processi mentali per formulare problemi risolvibili da un agente computazionale.",
+            "C": "Creare applicazioni per computer.",
+            "D": "Simulare comportamenti umani."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il pensiero computazionale si concentra sull'elaborazione di problemi in modo da renderli eseguibili da macchine, un concetto centrale per l'informatica."
+    },
+    {
+        "id": 5,
+        "question": "Quale componente fa parte dell'architettura di von Neumann?",
+        "options": {
+            "A": "Stampante laser.",
+            "B": "Mouse.",
+            "C": "CPU.",
+            "D": "Antenna wireless."
+        },
+        "correctAnswer": "C",
+        "explanation": "L'architettura di von Neumann include elementi fondamentali come la CPU, che esegue operazioni logiche e matematiche."
+    },
+
+        {
+            "id": 6,
+            "question": "Che cos'è il firmware?",
+            "options": {
+                "A": "Un software utilizzato solo per videogiochi.",
+                "B": "Un tipo di hardware.",
+                "C": "Un programma integrato in dispositivi elettronici per gestire funzioni di base.",
+                "D": "Un'applicazione scaricabile dal web."
+            },
+            "correctAnswer": "C",
+            "explanation": "Il firmware è una sequenza di istruzioni programmate su dispositivi hardware per abilitare la loro interazione con altri componenti."
+        },
+        {
+            "id": 7,
+            "question": "Cosa si intende per 'cloud computing'?",
+            "options": {
+                "A": "La memorizzazione locale di dati su un computer.",
+                "B": "La trasmissione di dati tramite cavi.",
+                "C": "L'accesso remoto a risorse e dati attraverso Internet.",
+                "D": "L'utilizzo di dischi rigidi per l'archiviazione."
+            },
+            "correctAnswer": "C",
+            "explanation": "Il cloud computing consente l'accesso remoto a risorse condivise su Internet, eliminando la dipendenza dall'archiviazione locale."
+        },
+        {
+            "id": 8,
+            "question": "Che cosa rappresenta la realtà aumentata nel continuum di Milgram?",
+            "options": {
+                "A": "Una fusione completa tra reale e virtuale.",
+                "B": "Un'alterazione dei sensi fisici.",
+                "C": "Una sovrapposizione di elementi virtuali al mondo reale.",
+                "D": "Una forma di realtà esclusivamente virtuale."
+            },
+            "correctAnswer": "C",
+            "explanation": "La realtà aumentata aggiunge elementi digitali al mondo reale, mantenendo un forte ancoraggio alla realtà fisica."
+        },
+        {
+            "id": 9,
+            "question": "Che cosa indica il termine 'impresa 4.0'?",
+            "options": {
+                "A": "Aziende che non utilizzano tecnologie digitali.",
+                "B": "Un'organizzazione che utilizza sistemi cyber-fisici per interconnessione.",
+                "C": "Un'impresa focalizzata solo sulla produzione manuale.",
+                "D": "Un'azienda che produce solo software."
+            },
+            "correctAnswer": "B",
+            "explanation": "L'impresa 4.0 sfrutta sistemi cyber-fisici e IoT per creare una rete interconnessa e ottimizzare i processi."
+        },
+        {
+            "id": 10,
+            "question": "Che ruolo ha l'astrazione nel pensiero computazionale?",
+            "options": {
+                "A": "Complicare la comprensione dei problemi.",
+                "B": "Rendere il problema più accessibile eliminando dettagli irrilevanti.",
+                "C": "Creare un nuovo linguaggio di programmazione.",
+                "D": "Ridurre le informazioni a zero."
+            },
+            "correctAnswer": "B",
+            "explanation": "L'astrazione è una tecnica centrale per semplificare la complessità, evidenziando solo gli elementi rilevanti."
+        },
+        {
+            "id": 11,
+            "question": "Qual è l'elemento fondamentale per iniziare a progettare un format?",
+            "options": {
+                "A": "Una storia interessante e ben strutturata.",
+                "B": "Una grafica accattivante.",
+                "C": "Un team di marketing competente.",
+                "D": "Un budget elevato."
+            },
+            "correctAnswer": "A",
+            "explanation": "Una storia interessante è la base di qualsiasi progetto di comunicazione, perché cattura l'attenzione del pubblico e dà coerenza al contenuto."
+        },
+        {
+            "id": 12,
+            "question": "Che cosa si intende con il termine 'intro' in una trasmissione radiofonica?",
+            "options": {
+                "A": "La parte centrale di una trasmissione.",
+                "B": "Il periodo in cui si descrivono i prossimi contenuti prima che inizi una canzone.",
+                "C": "Una parte senza contenuto utile durante la canzone.",
+                "D": "Una fase per lanciare pubblicità a caso."
+            },
+            "correctAnswer": "B",
+            "explanation": "L'intro è il momento perfetto per anticipare argomenti e catturare l’interesse degli ascoltatori, creando un ponte tra i contenuti."
+        },
+        {
+            "id": 13,
+            "question": "Qual è la principale funzione di un 'jingle' in radio?",
+            "options": {
+                "A": "Riempire il tempo di trasmissione vuoto.",
+                "B": "Creare un elemento identificativo del programma o dell’emittente.",
+                "C": "Fornire informazioni dettagliate agli ascoltatori.",
+                "D": "Interrompere la trasmissione per inserire errori tecnici."
+            },
+            "correctAnswer": "B",
+            "explanation": "Il jingle è un breve elemento musicale che rappresenta l'identità sonora di un programma o di una radio, rendendola riconoscibile."
+        },
+        {
+            "id": 14,
+            "question": "Qual è la differenza principale tra immagini raster e vettoriali?",
+            "options": {
+                "A": "Le immagini raster sono composte da linee; quelle vettoriali da pixel.",
+                "B": "Le immagini raster si comprimono meglio di quelle vettoriali.",
+                "C": "Le immagini raster perdono qualità quando ingrandite, quelle vettoriali no.",
+                "D": "Le immagini raster sono più facili da modificare rispetto a quelle vettoriali."
+            },
+            "correctAnswer": "C",
+            "explanation": "Le immagini raster dipendono dalla risoluzione e perdono qualità se ingrandite, mentre le immagini vettoriali si basano su formule matematiche, mantenendo la qualità."
+        },
+        {
+            "id": 15,
+            "question": "Quale tra i seguenti NON è un formato di compressione audio?",
+            "options": {
+                "A": "MP3.",
+                "B": "FLAC.",
+                "C": "MIDI.",
+                "D": "AIFF."
+            },
+            "correctAnswer": "C",
+            "explanation": "MIDI è un protocollo per comunicare dati musicali tra strumenti elettronici, non un formato di compressione audio."
+        },
+    {
+        "id": 16,
+        "question": "Che cosa significa 'lossless' nel contesto della compressione?",
+        "options": {
+            "A": "Compressione senza perdita di dati.",
+            "B": "Compressione di un file in formato MP3.",
+            "C": "Compressione con perdita di informazioni inutili.",
+            "D": "Compressione che riduce il rumore audio."
+        },
+        "correctAnswer": "A",
+        "explanation": "La compressione lossless conserva tutte le informazioni originali, garantendo che i dati possano essere ripristinati senza alcuna perdita."
+    },
+    {
+        "id": 17,
+        "question": "Quale caratteristica rende il formato JPG unico rispetto ad altri formati di immagine?",
+        "options": {
+            "A": "Non applica mai compressione.",
+            "B": "Supporta solo 256 colori.",
+            "C": "Utilizza una compressione lossy per ridurre la dimensione del file.",
+            "D": "È un formato vettoriale."
+        },
+        "correctAnswer": "C",
+        "explanation": "Il formato JPG usa una compressione lossy, che riduce la dimensione del file eliminando alcune informazioni, rendendolo ideale per le foto."
+    },
+    {
+        "id": 18,
+        "question": "Qual è uno degli obiettivi principali della sigla in un podcast?",
+        "options": {
+            "A": "Riempire lo spazio iniziale con suoni casuali.",
+            "B": "Rafforzare l'identità del brand del podcast.",
+            "C": "Creare un contenuto lungo senza valore informativo.",
+            "D": "Servire esclusivamente per decorare l'introduzione."
+        },
+        "correctAnswer": "B",
+        "explanation": "La sigla aiuta a creare familiarità e riconoscibilità con il pubblico, rafforzando l’identità del podcast."
+    },
+    {
+        "id": 19,
+        "question": "Cosa indica la sigla 'PPI' quando si parla di immagini digitali?",
+        "options": {
+            "A": "Pixels Per Inch.",
+            "B": "Polygons Per Image.",
+            "C": "Points Per Inch.",
+            "D": "Pixels Per Image."
+        },
+        "correctAnswer": "A",
+        "explanation": "PPI (Pixels Per Inch) è un'unità di misura che indica la densità di pixel in un'immagine digitale, usata per determinare la qualità della risoluzione."
+    },
+    {
+        "id": 20,
+        "question": "Qual è l'effetto del sottocampionamento (subsampling) nelle immagini video?",
+        "options": {
+            "A": "Aumenta la risoluzione di colore a discapito della luminosità.",
+            "B": "Riduce la risoluzione cromatica a favore della luminanza.",
+            "C": "Aggiunge dettagli nei colori più scuri.",
+            "D": "Riduce il peso dei file rimuovendo i pixel neri."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il sottocampionamento riserva più dati alla luminanza (la luminosità), sacrificando la risoluzione del colore per ottimizzare le risorse."
+    },
+    {
+        "id": 21,
+        "question": "Qual è stata la prima rete di calcolatori della storia?",
+        "options": {
+            "A": "ARPANET.",
+            "B": "Internet Explorer.",
+            "C": "LAN Ethernet.",
+            "D": "Telefono a rotella."
+        },
+        "correctAnswer": "A",
+        "explanation": "ARPANET è stata la prima rete di calcolatori operativa, realizzata nel 1969. Ha introdotto il concetto di 'packet switching' ed è considerata il precursore di Internet."
+    },
+    {
+        "id": 22,
+        "question": "Chi ha inventato il World Wide Web?",
+        "options": {
+            "A": "Bill Gates.",
+            "B": "Steve Jobs.",
+            "C": "Mark Zuckerberg.",
+            "D": "Tim Berners-Lee."
+        },
+        "correctAnswer": "D",
+        "explanation": "Tim Berners-Lee ha inventato il World Wide Web nel 1990. Ha sviluppato il primo browser, il protocollo HTTP, e il linguaggio HTML, gettando le basi per il Web come lo conosciamo oggi."
+    },
+    {
+        "id": 23,
+        "question": "Quale linguaggio viene utilizzato per strutturare i documenti del Web?",
+        "options": {
+            "A": "Python.",
+            "B": "SQL.",
+            "C": "HTML.",
+            "D": "WordArt."
+        },
+        "correctAnswer": "C",
+        "explanation": "HTML (HyperText Markup Language) è il linguaggio principale utilizzato per creare e strutturare le pagine Web. Esso definisce la struttura e il contenuto di un documento ipertestuale."
+    },
+    {
+        "id": 24,
+        "question": "Che cos’è un blog?",
+        "options": {
+            "A": "Un sito web che contiene solo immagini.",
+            "B": "Un portale per la gestione di intranet aziendali.",
+            "C": "Un'applicazione desktop per modificare video.",
+            "D": "Un sito web in cui si pubblicano articoli in ordine cronologico."
+        },
+        "correctAnswer": "D",
+        "explanation": "Un blog è uno spazio online dove articoli, o post, sono pubblicati in ordine cronologico. È usato per scopi personali o professionali, e spesso i lettori possono commentare i contenuti."
+    },
+    {
+        "id": 25,
+        "question": "Quale delle seguenti opzioni descrive un motore di ricerca?",
+        "options": {
+            "A": "Un browser per navigare su Internet.",
+            "B": "Un sistema per proteggere i dati degli utenti.",
+            "C": "Una rete privata per comunicare con il server locale.",
+            "D": "Un software che indicizza contenuti e consente la ricerca tramite parole chiave."
+        },
+        "correctAnswer": "D",
+        "explanation": "I motori di ricerca, come Google o Bing, analizzano e catalogano contenuti web per permettere agli utenti di cercarli con parole chiave. Sono uno strumento fondamentale per navigare il Web."
+    },
+    {
+        "id": 26,
+        "question": "Che cosa rappresenta il World Wide Web (WWW)?",
+        "options": {
+            "A": "Una rete di calcolatori progettata per il gaming.",
+            "B": "Il protocollo per trasmettere email.",
+            "C": "Una rete di risorse di informazioni basata sull’infrastruttura di Internet.",
+            "D": "Un sistema per fare chiamate vocali sul Web."
+        },
+        "correctAnswer": "C",
+        "explanation": "Il World Wide Web (WWW) è un sistema per accedere a risorse di informazioni (documenti, immagini, video) attraverso Internet, utilizzando linguaggi come HTML e protocolli come HTTP."
+    },
+    {
+        "id": 27,
+        "question": "Che cos'è una rete di calcolatori?",
+        "options": {
+            "A": "Un programma per scrivere testi.",
+            "B": "Un sistema di computer interconnessi per condividere risorse.",
+            "C": "Un dispositivo per stampare immagini.",
+            "D": "Una forma di comunicazione basata su segnali di fumo."
+        },
+        "correctAnswer": "B",
+        "explanation": "Una rete di calcolatori consente a diversi computer di connettersi tra loro per condividere hardware, software e dati. È una tecnologia fondamentale per la comunicazione moderna."
+    },
+    {
+        "id": 28,
+        "question": "Qual è una funzione principale di una rete informatica?",
+        "options": {
+            "A": "Predire il meteo.",
+            "B": "Creare immagini artistiche.",
+            "C": "Vendere dispositivi elettronici.",
+            "D": "Condividere risorse come hardware, software e dati."
+        },
+        "correctAnswer": "D",
+        "explanation": "Le reti informatiche sono progettate per consentire la condivisione di risorse tra utenti, come stampanti (hardware), programmi (software) e informazioni (dati). Questo è uno dei motivi principali per cui le reti sono utilizzate."
+    },
+    {
+        "id": 29,
+        "question": "Che cos'è un router?",
+        "options": {
+            "A": "Una stampante di rete.",
+            "B": "Un tipo di connessione wireless.",
+            "C": "Un dispositivo per connettere reti diverse.",
+            "D": "Un nodo centrale per calcoli complessi."
+        },
+        "correctAnswer": "C",
+        "explanation": "Il router è un dispositivo fondamentale in una rete informatica, poiché consente di collegare reti diverse, come una rete locale (LAN) a Internet. Non è una stampante né una connessione wireless, ma piuttosto un mediatore tra reti che gestisce il traffico dei dati."
+    },
+    {
+        "id": 30,
+        "question": "Qual è la differenza principale tra Internet e il World Wide Web?",
+        "options": {
+            "A": "Internet è l'infrastruttura, mentre il Web è un servizio che utilizza Internet.",
+            "B": "Internet è più veloce del Web.",
+            "C": "Il Web è l'infrastruttura, mentre Internet è un'applicazione del Web.",
+            "D": "Il Web e Internet sono sinonimi."
+        },
+        "correctAnswer": "A",
+        "explanation": "Internet è la rete globale di infrastrutture che consente la connessione tra nodi remoti. Il Web, invece, è un servizio che opera su Internet, permettendo l'accesso a documenti e risorse tramite un'interfaccia standard."
+    },
+    {
+        "id": 31,
+        "question": "Qual è una caratteristica fondamentale di un oggetto IoT?",
+        "options": {
+            "A": "Deve essere visibile su internet 24/7.",
+            "B": "Deve essere identificabile univocamente.",
+            "C": "Deve essere alimentato a energia solare.",
+            "D": "Deve avere una dimensione inferiore a quella di un computer portatile."
+        },
+        "correctAnswer": "B",
+        "explanation": "Gli oggetti IoT devono essere identificabili univocamente per poter comunicare all'interno della rete e scambiare informazioni."
+    },
+    {
+        "id": 32,
+        "question": "Qual è uno degli strumenti per identificare gli oggetti nell'IoT?",
+        "options": {
+            "A": "Protocollo HTTP.",
+            "B": "Codici QR.",
+            "C": "Tecnologia Bluetooth.",
+            "D": "Sensori di movimento."
+        },
+        "correctAnswer": "B",
+        "explanation": "I codici QR sono una delle tecnologie utilizzate per identificare oggetti nell'IoT. Consentono di fornire un'identità leggibile da dispositivi come scanner o smartphone, che possono poi accedere ai dati associati all'oggetto."
+    },
+    {
+        "id": 33,
+        "question": "Qual è una delle caratteristiche principali del Cloud Computing?",
+        "options": {
+            "A": "Accesso on-demand ai servizi.",
+            "B": "Necessità di installare ogni applicazione localmente.",
+            "C": "Accesso limitato a una sola rete locale.",
+            "D": "Impossibilità di utilizzare risorse condivise."
+        },
+        "correctAnswer": "A",
+        "explanation": "Il Cloud Computing offre la possibilità di accedere ai servizi in modo immediato e su richiesta, senza dover attendere installazioni o configurazioni manuali."
+    },
+    {
+        "id": 34,
+        "question": "Qual è il principale scopo dei protocolli nella comunicazione tra nodi di Internet?",
+        "options": {
+            "A": "Consentire l'aggiunta di nuovi router senza configurazioni.",
+            "B": "Definire regole e formati per l'interazione e il trasferimento dei messaggi.",
+            "C": "Assicurare che tutti i nodi utilizzino lo stesso hardware.",
+            "D": "Aumentare la velocità di trasmissione eliminando il controllo degli errori."
+        },
+        "correctAnswer": "B",
+        "explanation": "I protocolli definiscono regole e formati per garantire una comunicazione coerente ed efficace tra i nodi della rete."
+    },
+    {
+        "id": 35,
+        "question": "Quale modello di servizio del Cloud Computing consente agli utenti di utilizzare software tramite il web?",
+        "options": {
+            "A": "Infrastructure as a Service (IaaS).",
+            "B": "Platform as a Service (PaaS).",
+            "C": "Software as a Service (SaaS).",
+            "D": "Network as a Service (NaaS)."
+        },
+        "correctAnswer": "C",
+        "explanation": "Il modello SaaS consente di utilizzare applicazioni software tramite un browser web senza la necessità di installarle localmente, rendendole facilmente accessibili da qualsiasi dispositivo connesso."
+    },
+    {
+        "id": 36,
+        "question": "Chi è il 'Cloud Consumer' nel contesto del Cloud Computing?",
+        "options": {
+            "A": "Chi costruisce l’infrastruttura cloud.",
+            "B": "Chi gestisce i server fisici nel data center.",
+            "C": "Chi utilizza o configura i servizi cloud per le proprie necessità.",
+            "D": "Chi produce software esclusivamente per il cloud."
+        },
+        "correctAnswer": "C",
+        "explanation": "Il 'Cloud Consumer' rappresenta l’utente che configura e utilizza i servizi cloud in base alle proprie esigenze."
+    },
+    {
+        "id": 37,
+        "question": "Quale tra i seguenti è un livello dello stack TCP/IP?",
+        "options": {
+            "A": "Hardware.",
+            "B": "Modem.",
+            "C": "Applicativo.",
+            "D": "Circuito integrato."
+        },
+        "correctAnswer": "C",
+        "explanation": "Il livello applicativo è uno dei livelli dello stack TCP/IP, che include anche trasporto, rete, collegamento e fisico."
+    },
+    {
+        "id": 38,
+        "question": "Qual è la definizione principale di una rete di calcolatori?",
+        "options": {
+            "A": "Un unico computer utilizzato da più utenti contemporaneamente.",
+            "B": "Due o più computer interconnessi per condividere risorse.",
+            "C": "Un sistema operativo installato su diversi dispositivi.",
+            "D": "Un insieme di stampanti collegate in rete locale."
+        },
+        "correctAnswer": "B",
+        "explanation": "Una rete di calcolatori è definita come un insieme di due o più computer interconnessi per condividere risorse come dati, hardware o software."
+    },
+    {
+        "id": 39,
+        "question": "Qual è un vantaggio principale di un ambiente di rete?",
+        "options": {
+            "A": "Eliminare la necessità di server dedicati.",
+            "B": "Consentire la condivisione di risorse come file e stampanti.",
+            "C": "Sostituire completamente i dispositivi hardware.",
+            "D": "Ridurre il numero di utenti che possono accedere ai dati."
+        },
+        "correctAnswer": "B",
+        "explanation": "Un ambiente di rete consente agli utenti di condividere risorse come file, dispositivi di stampa e dati in modo efficiente e collaborativo."
+    },
+    {
+        "id": 40,
+        "question": "Che cosa identifica un indirizzo IP?",
+        "options": {
+            "A": "Un dispositivo in una rete locale.",
+            "B": "Un indirizzo fisico assegnato a una scheda di rete.",
+            "C": "Un dispositivo univoco su Internet.",
+            "D": "La porta utilizzata da un programma per connettersi a Internet."
+        },
+        "correctAnswer": "C",
+        "explanation": "Un indirizzo IP identifica un dispositivo univoco su Internet, mentre l'indirizzo MAC si riferisce all'identificazione fisica e la porta è un numero usato per distinguere applicazioni."
+    },
+    {
+        "id": 41,
+        "question": "Cos'è un sistema operativo?",
+        "options": {
+            "A": "Un dispositivo hardware per migliorare le prestazioni del computer.",
+            "B": "Un software che intermedia tra utente e hardware del computer.",
+            "C": "Un programma per navigare su internet.",
+            "D": "Una piattaforma per lo sviluppo di videogiochi."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il sistema operativo (SO) è definito come un software che permette all'utente di interagire con l'hardware, gestendo risorse e applicazioni."
+    },
+    {
+        "id": 42,
+        "question": "Qual è uno degli obiettivi principali di un sistema operativo?",
+        "options": {
+            "A": "Bloccare l'accesso agli utenti non autorizzati.",
+            "B": "Rendere agevole l’uso del computer per l’utente.",
+            "C": "Aumentare la velocità di Internet.",
+            "D": "Progettare nuovi hardware."
+        },
+        "correctAnswer": "B",
+        "explanation": "Un obiettivo centrale di un SO è rendere più facile e intuitiva l'interazione tra utente e macchina."
+    },
+    {
+        "id": 43,
+        "question": "Qual è un esempio di sistema operativo mobile?",
+        "options": {
+            "A": "Linux Mint.",
+            "B": "iOS.",
+            "C": "MS-DOS.",
+            "D": "Fedora."
+        },
+        "correctAnswer": "B",
+        "explanation": "iOS è un sistema operativo mobile sviluppato da Apple, utilizzato su dispositivi come iPhone e iPad."
+    },
+    {
+        "id": 44,
+        "question": "Qual è la sequenza corretta del ciclo macchina della CPU?",
+        "options": {
+            "A": "Decode → Execute → Fetch.",
+            "B": "Fetch → Decode → Execute.",
+            "C": "Execute → Fetch → Decode.",
+            "D": "Fetch → Execute → Store."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il ciclo macchina prevede il caricamento dell’istruzione (Fetch), la sua decodifica (Decode) e l’esecuzione (Execute)."
+    },
+    {
+        "id": 45,
+        "question": "Come viene misurata la capacità della memoria centrale?",
+        "options": {
+            "A": "In secondi.",
+            "B": "In watt.",
+            "C": "In byte.",
+            "D": "In hertz."
+        },
+        "correctAnswer": "C",
+        "explanation": "La capacità della memoria si misura in byte, con unità come kilobyte, megabyte, ecc."
+    },
+    {
+        "id": 46,
+        "question": "Qual è lo schema più comune per le tastiere alfanumeriche basate sull’alfabeto latino?",
+        "options": {
+            "A": "AZERTY.",
+            "B": "Dvorak.",
+            "C": "QWERTY.",
+            "D": "QWERTZ."
+        },
+        "correctAnswer": "C",
+        "explanation": "Lo schema QWERTY è il più diffuso per tastiere che utilizzano l’alfabeto latino."
+    },
+    {
+        "id": 47,
+        "question": "Cosa succede durante la formattazione di un disco?",
+        "options": {
+            "A": "Si aumentano le prestazioni del disco.",
+            "B": "Si cancellano tutti i dati pre-esistenti.",
+            "C": "Si converte il disco in memoria RAM.",
+            "D": "Si aggiungono nuovi settori."
+        },
+        "correctAnswer": "B",
+        "explanation": "La formattazione cancella tutti i dati e organizza il disco per essere utilizzabile dal sistema operativo."
+    },
+    {
+        "id": 48,
+        "question": "Qual è la funzione principale di un calcolatore?",
+        "options": {
+            "A": "Creare energia elettrica.",
+            "B": "Elaborare e memorizzare informazioni automaticamente.",
+            "C": "Conservare energia in batterie.",
+            "D": "Produrre segnali sonori."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il calcolatore è una macchina progettata per elaborare e memorizzare informazioni in modo programmabile e automatico."
+    },
+    {
+        "id": 49,
+        "question": "Quale architettura ha influenzato maggiormente i calcolatori moderni?",
+        "options": {
+            "A": "Architettura di Fibonacci.",
+            "B": "Modello di Von Neumann.",
+            "C": "Sistema binario.",
+            "D": "Schema di Turing."
+        },
+        "correctAnswer": "B",
+        "explanation": "L'architettura di Von Neumann, con divisione tra unità di controllo, memoria e input/output, è la base dei calcolatori attuali."
+    },
+    {
+        "id": 50,
+        "question": "Qual è la caratteristica della memoria principale (RAM)?",
+        "options": {
+            "A": "È non volatile e lenta.",
+            "B": "È volatile e veloce.",
+            "C": "Memorizza dati solo una volta.",
+            "D": "È utilizzata solo per il backup."
+        },
+        "correctAnswer": "B",
+        "explanation": "La RAM è una memoria veloce che perde i dati senza alimentazione elettrica."
+    },
+    {
+        "id": 51,
+        "question": "Cos'è HTML?",
+        "options": {
+            "A": "Collegamento di creazione di ipertestuale.",
+            "B": "Layout di mainframe ipertestuale.",
+            "C": "Linguaggio di markup ipertestuale.",
+            "D": "Linguaggio di markup ad alto testo."
+        },
+        "correctAnswer": "C",
+        "explanation": "HTML è il linguaggio standard per strutturare contenuti web. Gli altri nomi proposti non hanno senso tecnico."
+    },
+    {
+        "id": 52,
+        "question": "Quale tag viene usato per definire un paragrafo?",
+        "options": {
+            "A": "<div>.",
+            "B": "<para>.",
+            "C": "<paragraph>.",
+            "D": "<p>."
+        },
+        "correctAnswer": "D",
+        "explanation": "<p> è il tag dedicato ai paragrafi in HTML, mentre <div> e gli altri non hanno questa funzione."
+    },
+    {
+        "id": 53,
+        "question": "Che cosa definisce il tag <h1>?",
+        "options": {
+            "A": "Un'immagine.",
+            "B": "Una tabella.",
+            "C": "Un collegamento.",
+            "D": "Un'intestazione di massimo livello."
+        },
+        "correctAnswer": "D",
+        "explanation": "<h1> rappresenta il titolo più importante, in ordine gerarchico rispetto a <h2> e successivi."
+    },
+    {
+        "id": 54,
+        "question": "Quale attributo specifica il collegamento di un collegamento?",
+        "options": {
+            "A": "src.",
+            "B": "alt.",
+            "C": "href.",
+            "D": "link."
+        },
+        "correctAnswer": "C",
+        "explanation": "href indica la destinazione di un link, mentre src è usato per immagini e media."
+    },
+    {
+        "id": 55,
+        "question": "Come inizia un documento HTML5?",
+        "options": {
+            "A": "<html5>.",
+            "B": "<document>.",
+            "C": "<start-html>.",
+            "D": "<!DOCTYPE html>."
+        },
+        "correctAnswer": "D",
+        "explanation": "Questa dichiarazione è obbligatoria per indicare al browser che si sta utilizzando HTML5."
+    },
+    {
+        "id": 56,
+        "question": "Cosa fa l'elemento <br>?",
+        "options": {
+            "A": "Rende il testo in grassetto.",
+            "B": "Definisce una tabella.",
+            "C": "Va a capo.",
+            "D": "Inserisce un link."
+        },
+        "correctAnswer": "C",
+        "explanation": "<br> introduce un'interruzione di linea, senza creare un nuovo paragrafo."
+    },
+    {
+        "id": 57,
+        "question": "Qual è l'estensione di un file CSS?",
+        "options": {
+            "A": ".html.",
+            "B": ".style.",
+            "C": ".js.",
+            "D": ".css."
+        },
+        "correctAnswer": "D",
+        "explanation": "Questa è l'estensione standard per i fogli di stile CSS. Gli altri formati sono errati o per altri scopi."
+    },
+    {
+        "id": 58,
+        "question": "Come si aggiunge un commento in HTML?",
+        "options": {
+            "A": "/* Commento */.",
+            "B": "## Commento ##.",
+            "C": "// Commento.",
+            "D": "<!-- Commento -->."
+        },
+        "correctAnswer": "D",
+        "explanation": "Questa è la sintassi corretta per i commenti in HTML. Gli altri formati appartengono a linguaggi diversi."
+    },
+    {
+        "id": 59,
+        "question": "Quale linguaggio descrive lo stile di un documento HTML?",
+        "options": {
+            "A": "PHP.",
+            "B": "Python.",
+            "C": "JavaScript.",
+            "D": "CSS."
+        },
+        "correctAnswer": "D",
+        "explanation": "CSS (Cascading Style Sheets) è dedicato allo stile e alla formattazione degli elementi HTML."
+    },
+    {
+        "id": 60,
+        "question": "Qual è l'attributo corretto per impostare un colore di sfondo in HTML?",
+        "options": {
+            "A": "background.",
+            "B": "color.",
+            "C": "bg.",
+            "D": "style."
+        },
+        "correctAnswer": "D",
+        "explanation": "L'attributo style permette di applicare CSS inline, come impostare il colore di sfondo con background-color."
+    },
+    {
+        "id": 61,
+        "question": "Chi dei seguenti viene considerato il 'padre' dell'Intelligenza Artificiale per aver coniato il termine?",
+        "options": {
+            "A": "Alan Turing.",
+            "B": "Seymour Papert.",
+            "C": "Marvin Minsky.",
+            "D": "John McCarthy."
+        },
+        "correctAnswer": "D",
+        "explanation": "John McCarthy ha coniato il termine 'Intelligenza Artificiale' durante la Dartmouth Conference del 1956."
+    },
+    {
+        "id": 62,
+        "question": "Cosa rappresenta l'acronimo 'PROLOG'?",
+        "options": {
+            "A": "PROcessing LOGistics.",
+            "B": "PROfessional LOGarithms.",
+            "C": "PROjecting LOGos.",
+            "D": "PROgramming in LOgic."
+        },
+        "correctAnswer": "D",
+        "explanation": "PROLOG si propone di fornire una descrizione della soluzione in modo che l'esecuzione della sequenza possa essere dedotta automaticamente dal sistema."
+    },
+    {
+        "id": 63,
+        "question": "Quale elemento è fondamentale per integrare la realtà aumentata (AR) nel Metaverso?",
+        "options": {
+            "A": "Creazione di criptovalute.",
+            "B": "Software per la gestione dei mercati virtuali.",
+            "C": "Traduttori vocali in tempo reale.",
+            "D": "Dispositivi AR come visori e smartphone."
+        },
+        "correctAnswer": "D",
+        "explanation": "L’AR sovrappone elementi digitali al mondo reale, richiedendo hardware specifico come visori o smartphone per funzionare."
+    },
+    {
+        "id": 64,
+        "question": "Da quale opera letteraria trae origine il termine 'Metaverso'?",
+        "options": {
+            "A": "Neuromante di William Gibson.",
+            "B": "Ready Player One di Ernest Cline.",
+            "C": "Matrix di Andy e Larry Wachowski.",
+            "D": "Snow Crash di Neal Stephenson."
+        },
+        "correctAnswer": "D",
+        "explanation": "Neal Stephenson ha introdotto il termine 'Metaverso' nel suo romanzo del 1992, influenzando lo sviluppo tecnologico e culturale del concetto."
+    },
+    {
+        "id": 65,
+        "question": "Quale tecnologia permette l'immersione totale nel Metaverso?",
+        "options": {
+            "A": "Realtà aumentata (AR).",
+            "B": "Blockchain.",
+            "C": "Intelligenza artificiale (AI).",
+            "D": "Realtà virtuale (VR)."
+        },
+        "correctAnswer": "D",
+        "explanation": "La VR consente esperienze immersive complete, simulando mondi digitali tridimensionali."
+    },
+    {
+        "id": 66,
+        "question": "Quale funzione svolge la blockchain nel Metaverso?",
+        "options": {
+            "A": "Fornisce visori per la realtà virtuale.",
+            "B": "Crea ambienti interattivi dinamici.",
+            "C": "Integra elementi virtuali nel mondo reale.",
+            "D": "Gestisce la proprietà e le transazioni di beni digitali."
+        },
+        "correctAnswer": "D",
+        "explanation": "La blockchain garantisce sicurezza e proprietà decentralizzata, essenziale per l'economia del Metaverso."
+    },
+    {
+        "id": 67,
+        "question": "Che cosa sono i modelli generativi preaddestrati (GPT)?",
+        "options": {
+            "A": "Algoritmi che modificano immagini.",
+            "B": "Applicazioni per la programmazione di siti web.",
+            "C": "Strumenti di traduzione istantanea.",
+            "D": "Modelli basati su reti neurali addestrati su grandi dataset di testo."
+        },
+        "correctAnswer": "D",
+        "explanation": "I modelli GPT utilizzano reti neurali profonde e dataset di testo per generare risposte naturali e rilevanti."
+    },
+    {
+        "id": 68,
+        "question": "Qual è il primo passo per creare un proprio modello GPT personalizzato?",
+        "options": {
+            "A": "Configurare l'hardware.",
+            "B": "Disegnare un'interfaccia grafica.",
+            "C": "Scrivere un manuale d'uso.",
+            "D": "Raccogliere un dataset variegato di testo."
+        },
+        "correctAnswer": "D",
+        "explanation": "La creazione di un modello GPT inizia con la raccolta di dati per l'addestramento, che deve essere ampio e di qualità."
+    },
+    {
+        "id": 69,
+        "question": "Qual è uno degli obiettivi principali di creare influencer virtuali come Aitana Lopez?",
+        "options": {
+            "A": "Eliminare completamente l'uso dei social media.",
+            "B": "Sviluppare software per la creazione di immagini.",
+            "C": "Aumentare il consumo di energia degli avatar digitali.",
+            "D": "Superare i limiti operativi degli influencer reali."
+        },
+        "correctAnswer": "D",
+        "explanation": "Aitana Lopez è stata creata per evitare inefficienze e imprevisti tipici degli influencer umani."
+    },
+    {
+        "id": 70,
+        "question": "Che cosa consente di fare Fooocus?",
+        "options": {
+            "A": "Configurare complesse regolazioni tecniche.",
+            "B": "Generare script per l'automazione aziendale.",
+            "C": "Clonare modelli vocali multilingue.",
+            "D": "Creare immagini tramite prompt descrittivi."
+        },
+        "correctAnswer": "D",
+        "explanation": "Fooocus si concentra sulla semplicità d'uso, permettendo agli utenti di generare immagini tramite descrizioni testuali, senza complessi setup tecnici."
+    },
+    {
+        "id": 71,
+        "question": "Qual è la caratteristica principale del 'calm computing' descritto da Mark Weiser?",
+        "options": {
+            "A": "Eliminare la necessità di interazione tra utente e macchina.",
+            "B": "Introdurre l'informatica in ogni aspetto della vita senza renderla invadente.",
+            "C": "Aumentare la complessità delle interfacce utente.",
+            "D": "Ridurre l'uso di tecnologie di calcolo a livello personale."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il 'calm computing' punta a integrare la tecnologia nella vita quotidiana in modo discreto e naturale, come proposto da Mark Weiser."
+    },
+    {
+        "id": 72,
+        "question": "Cosa rappresenta la 'realtà virtuale' nel continuum di Milgram?",
+        "options": {
+            "A": "Un'integrazione parziale di elementi reali e virtuali.",
+            "B": "Una tecnologia utilizzabile solo in ambito scientifico.",
+            "C": "Una completa immersione in un ambiente generato al computer.",
+            "D": "La sovrapposizione di elementi virtuali al mondo reale."
+        },
+        "correctAnswer": "C",
+        "explanation": "La realtà virtuale implica un ambiente completamente simulato, separato dal mondo reale, come descritto nel continuum di Milgram."
+    },
+    {
+        "id": 73,
+        "question": "Cosa distingue un sistema di comunicazione digitale da uno analogico?",
+        "options": {
+            "A": "La trasmissione è più lenta nei sistemi digitali.",
+            "B": "I dati digitali sono rappresentati in forma discreta.",
+            "C": "I sistemi analogici non utilizzano segnali elettrici.",
+            "D": "I sistemi digitali non possono trasmettere audio."
+        },
+        "correctAnswer": "B",
+        "explanation": "I sistemi digitali rappresentano dati in forma discreta, mentre quelli analogici li rappresentano in forma continua."
+    },
+    {
+        "id": 74,
+        "question": "Quale dei seguenti è un esempio di pensiero computazionale?",
+        "options": {
+            "A": "Scrivere un documento con un word processor.",
+            "B": "Disegnare un grafico a mano.",
+            "C": "Tradurre un testo in un'altra lingua senza software.",
+            "D": "Progettare un algoritmo per risolvere un problema."
+        },
+        "correctAnswer": "D",
+        "explanation": "Il pensiero computazionale include la capacità di creare soluzioni algoritmiche per problemi computabili."
+    },
+    {
+        "id": 75,
+        "question": "Cosa si intende per 'cyber-physical systems' nell'industria 4.0?",
+        "options": {
+            "A": "Dispositivi fisici che funzionano senza software.",
+            "B": "Sistemi fisici interconnessi tramite reti digitali.",
+            "C": "Macchine automatizzate che operano offline.",
+            "D": "Sistemi di calcolo basati esclusivamente su cloud computing."
+        },
+        "correctAnswer": "B",
+        "explanation": "I CPS combinano elementi fisici e digitali, permettendo interazioni in tempo reale tra dispositivi e reti."
+    },
+    {
+        "id": 76,
+        "question": "Qual è lo scopo principale della piramide DIKW?",
+        "options": {
+            "A": "Classificare le fonti di dati.",
+            "B": "Dividere le informazioni in categorie discrete.",
+            "C": "Organizzare le tecnologie digitali in gerarchie.",
+            "D": "Rappresentare il flusso dall'acquisizione di dati grezzi alla saggezza."
+        },
+        "correctAnswer": "D",
+        "explanation": "La piramide DIKW mostra la progressione da dati grezzi a informazioni, conoscenza e infine saggezza."
+    },
+    {
+        "id": 77,
+        "question": "Cosa differenzia il pensiero computazionale dalla matematica tradizionale?",
+        "options": {
+            "A": "L'assenza di algoritmi nei problemi matematici.",
+            "B": "L'esclusione di concetti astratti.",
+            "C": "Il focus su processi eseguibili da un agente computazionale.",
+            "D": "L'uso di calcoli manuali."
+        },
+        "correctAnswer": "C",
+        "explanation": "Il pensiero computazionale si concentra sulla formulazione di soluzioni eseguibili da un calcolatore."
+    },
+    {
+        "id": 78,
+        "question": "Quale delle seguenti caratteristiche è associata al 'toyotismo'?",
+        "options": {
+            "A": "Standardizzazione e operazioni ripetitive.",
+            "B": "Gerarchia rigida tra lavoratori.",
+            "C": "Lavorazione esclusivamente manuale.",
+            "D": "Responsabilizzazione del lavoratore nel processo produttivo."
+        },
+        "correctAnswer": "D",
+        "explanation": "Il toyotismo privilegia la responsabilità dei lavoratori e la flessibilità nei processi, diversamente dal taylorismo."
+    },
+    {
+        "id": 79,
+        "question": "Quale tecnologia è fondamentale per la realizzazione di un sistema di cloud computing?",
+        "options": {
+            "A": "Archiviazione su disco fisso.",
+            "B": "Comunicazione analogica.",
+            "C": "Sistemi operativi standalone.",
+            "D": "Reti di calcolatori."
+        },
+        "correctAnswer": "D",
+        "explanation": "Le reti di calcolatori costituiscono la base del cloud computing, permettendo l'accesso remoto ai dati."
+    },
+    {
+        "id": 80,
+        "question": "In cosa consiste il concetto di astrazione nel pensiero computazionale?",
+        "options": {
+            "A": "Trasformare dati in algoritmi.",
+            "B": "Isolare dettagli rilevanti e ridurre la complessità.",
+            "C": "Creare modelli esclusivamente visivi.",
+            "D": "Aggiungere livelli di complessità ai problemi."
+        },
+        "correctAnswer": "B",
+        "explanation": "L'astrazione consente di focalizzarsi sui concetti essenziali, semplificando problemi complessi per risolverli meglio."
+    },
+    {
+        "id": 81,
+        "question": "Che cosa si intende con il termine 'coming up' in una trasmissione radiofonica?",
+        "options": {
+            "A": "Una pausa musicale tra due blocchi.",
+            "B": "Un riassunto degli argomenti già trattati.",
+            "C": "Un tipo di intervallo pubblicitario casuale.",
+            "D": "Un’anticipazione dei temi del blocco successivo."
+        },
+        "correctAnswer": "D",
+        "explanation": "'Coming up' si riferisce a un’anticipazione per mantenere alta l’attenzione degli ascoltatori."
+    },
+    {
+        "id": 82,
+        "question": "Qual è uno dei principi fondamentali del pensiero computazionale?",
+        "options": {
+            "A": "La capacità di progettare esclusivamente sistemi hardware.",
+            "B": "Il focus sul miglioramento della qualità grafica nei progetti.",
+            "C": "L'utilizzo esclusivo di tecniche di programmazione ad alto livello.",
+            "D": "L'abilità di analizzare problemi ed artefatti computazionali."
+        },
+        "correctAnswer": "D",
+        "explanation": "L'analisi di problemi ed artefatti è una competenza centrale per risolvere problemi complessi in modo computazionale."
+    },
+    {
+        "id": 83,
+        "question": "Quale categoria di software include i sistemi operativi?",
+        "options": {
+            "A": "Firmware.",
+            "B": "Driver.",
+            "C": "Programmi applicativi.",
+            "D": "Software di base."
+        },
+        "correctAnswer": "D",
+        "explanation": "I sistemi operativi appartengono al software di base perché gestiscono l’hardware e forniscono servizi ai programmi."
+    },
+    {
+        "id": 84,
+        "question": "Qual è il significato di 'frame rate' in un video digitale?",
+        "options": {
+            "A": "La durata totale del video.",
+            "B": "La quantità di dati memorizzati in ogni fotogramma.",
+            "C": "La risoluzione massima del video.",
+            "D": "Il numero di fotogrammi visualizzati al secondo."
+        },
+        "correctAnswer": "D",
+        "explanation": "Il frame rate determina la fluidità del video in base al numero di immagini mostrate ogni secondo."
+    },
+    {
+        "id": 85,
+        "question": "Che cosa rappresenta un programma applicativo?",
+        "options": {
+            "A": "Un software progettato esclusivamente per l'elaborazione grafica.",
+            "B": "Un software integrato direttamente nell’hardware del computer.",
+            "C": "Un software progettato per il funzionamento del sistema operativo.",
+            "D": "Un software per risolvere problemi specifici degli utenti."
+        },
+        "correctAnswer": "D",
+        "explanation": "I programmi applicativi aiutano a risolvere problemi specifici, come la scrittura o la gestione di dati."
+    },
+    {
+        "id": 86,
+        "question": "Che cosa rappresenta un’immagine raster?",
+        "options": {
+            "A": "Una rappresentazione basata su formule matematiche.",
+            "B": "Una tecnica esclusivamente usata per la stampa tipografica.",
+            "C": "Una serie di codici ASCII che definiscono il contenuto grafico.",
+            "D": "Una griglia di pixel che forma l’immagine."
+        },
+        "correctAnswer": "D",
+        "explanation": "Le immagini raster sono composte da una griglia di pixel, ognuno con un colore specifico."
+    },
+    {
+        "id": 87,
+        "question": "Che differenza c'è tra un compressore audio lossy e lossless?",
+        "options": {
+            "A": "Lossy mantiene la qualità più alta possibile, mentre lossless riduce la qualità.",
+            "B": "Lossy elimina informazioni non essenziali, mentre lossless conserva tutti i dati originali.",
+            "C": "Lossy si usa solo per la musica, mentre lossless è adatto per i podcast.",
+            "D": "Lossy e lossless sono identici, cambia solo il nome."
+        },
+        "correctAnswer": "B",
+        "explanation": "La compressione lossy sacrifica dati per ridurre le dimensioni, mentre la lossless conserva tutte le informazioni."
+    },
+    {
+        "id": 88,
+        "question": "Qual è una delle sette idee fondamentali dell’informatica secondo il pensiero computazionale?",
+        "options": {
+            "A": "La gestione delle risorse umane.",
+            "B": "L'implementazione di driver hardware.",
+            "C": "L’automazione totale dei processi senza supervisione.",
+            "D": "La creatività nell’innovazione tecnologica."
+        },
+        "correctAnswer": "D",
+        "explanation": "La creatività è una forza motrice nell’innovazione e nella risoluzione dei problemi tramite l’informatica."
+    },
+    {
+        "id": 89,
+        "question": "Che cosa accade quando si aumenta il frame rate di un video?",
+        "options": {
+            "A": "La risoluzione dell’immagine migliora automaticamente.",
+            "B": "La durata del video aumenta.",
+            "C": "Il numero totale di fotogrammi rimane invariato.",
+            "D": "La riproduzione appare più fluida."
+        },
+        "correctAnswer": "D",
+        "explanation": "Aumentare il frame rate migliora la fluidità della riproduzione video."
+    },
+    {
+        "id": 90,
+        "question": "Qual è la principale funzione del modello colore RGB?",
+        "options": {
+            "A": "Limitare la gamma cromatica per la stampa.",
+            "B": "Ottimizzare la densità dei colori nelle immagini vettoriali.",
+            "C": "Creare immagini a elevata risoluzione per la stampa offset.",
+            "D": "Permettere la rappresentazione digitale dei colori sui monitor."
+        },
+        "correctAnswer": "D",
+        "explanation": "RGB è un modello additivo progettato per la rappresentazione dei colori nei display digitali."
+    },
+    {
+        "id": 91,
+        "question": "Che cosa significa il termine 'peer-to-peer' (P2P) nel contesto delle reti?",
+        "options": {
+            "A": "Una rete in cui tutti i computer possono agire sia come server che come client.",
+            "B": "Un sistema in cui i dati viaggiano in un'unica direzione.",
+            "C": "Un metodo per connettere solo computer portatili.",
+            "D": "Una tecnologia esclusivamente utilizzata per i giochi online."
+        },
+        "correctAnswer": "A",
+        "explanation": "Nel modello P2P, non ci sono server centralizzati; ogni dispositivo può condividere o ricevere informazioni, rendendo la rete più decentralizzata e flessibile."
+    },
+    {
+        "id": 92,
+        "question": "Quale organizzazione è responsabile dello sviluppo degli standard del Web?",
+        "options": {
+            "A": "IEEE.",
+            "B": "NASA.",
+            "C": "ICANN.",
+            "D": "W3C (World Wide Web Consortium)."
+        },
+        "correctAnswer": "D",
+        "explanation": "Fondato da Tim Berners-Lee nel 1994, il W3C si occupa di definire gli standard del Web per garantire che rimanga accessibile, funzionale e aggiornato alle esigenze tecnologiche."
+    },
+    {
+        "id": 93,
+        "question": "Quale tra questi è il criterio principale per classificare i tipi di reti informatiche?",
+        "options": {
+            "A": "La velocità di trasmissione.",
+            "B": "La distanza che coprono.",
+            "C": "La marca dei dispositivi connessi.",
+            "D": "La quantità di nodi presenti."
+        },
+        "correctAnswer": "B",
+        "explanation": "Le reti informatiche vengono classificate principalmente in base alla scala dimensionale, ovvero la distanza che coprono (ad esempio, PAN, LAN, WAN)."
+    },
+    {
+        "id": 94,
+        "question": "Quale tra questi è un esempio di codice di risposta HTTP 4xx?",
+        "options": {
+            "A": "200 - OK.",
+            "B": "301 - Moved Permanently.",
+            "C": "500 - Internal Server Error.",
+            "D": "404 - Not Found."
+        },
+        "correctAnswer": "D",
+        "explanation": "I codici di risposta 4xx indicano errori lato client. '404 - Not Found' è il messaggio restituito quando una risorsa richiesta non esiste sul server."
+    },
+    {
+        "id": 95,
+        "question": "Qual è il ruolo del linguaggio HTML nel contesto del Web?",
+        "options": {
+            "A": "Stabilire le connessioni TCP tra client e server.",
+            "B": "Proteggere i dati scambiati tra client e server.",
+            "C": "Convertire i dati HTML in codice macchina.",
+            "D": "Descrivere la struttura e il contenuto di una pagina web attraverso marcatori (tag)."
+        },
+        "correctAnswer": "D",
+        "explanation": "HTML è un linguaggio di markup che usa tag per definire il contenuto e la struttura di una pagina web."
+    },
+    {
+        "id": 96,
+        "question": "Qual è il ruolo principale del protocollo HTTP nel Web?",
+        "options": {
+            "A": "Trasferire informazioni tra client e server.",
+            "B": "Creare connessioni Bluetooth tra dispositivi.",
+            "C": "Generare indirizzi IP univoci per i computer.",
+            "D": "Controllare l'accesso alle reti Wi-Fi."
+        },
+        "correctAnswer": "A",
+        "explanation": "HTTP (HyperText Transfer Protocol) è il protocollo usato per richiedere e trasferire contenuti tra un browser (client) e un server."
+    },
+    {
+        "id": 97,
+        "question": "Qual è una caratteristica distintiva di una rete locale (LAN) rispetto a una rete geografica (WAN)?",
+        "options": {
+            "A": "Utilizza principalmente connessioni satellitari.",
+            "B": "È più adatta alla comunicazione tra continenti.",
+            "C": "Richiede una dorsale ad alta capacità.",
+            "D": "È progettata per coprire una distanza limitata, come un edificio."
+        },
+        "correctAnswer": "D",
+        "explanation": "Le LAN (Local Area Network) sono progettate per distanze limitate, come abitazioni o edifici, utilizzando tecnologie come Ethernet e Wi-Fi."
+    },
+    {
+        "id": 98,
+        "question": "Qual è la funzione principale di un Uniform Resource Locator (URL)?",
+        "options": {
+            "A": "Creare una connessione sicura tra browser e server.",
+            "B": "Stabilire il formato di una pagina web.",
+            "C": "Localizzare un indirizzo IP di un utente.",
+            "D": "Identificare in modo univoco una risorsa su un server."
+        },
+        "correctAnswer": "D",
+        "explanation": "L'URL è l'indirizzo standard che specifica la posizione di una risorsa web, identificando il protocollo, il server e il percorso della risorsa."
+    },
+    {
+        "id": 99,
+        "question": "Quale topologia è comunemente usata nelle reti locali (LAN)?",
+        "options": {
+            "A": "Lineare.",
+            "B": "Ad anello.",
+            "C": "Mesh completa.",
+            "D": "A stella."
+        },
+        "correctAnswer": "D",
+        "explanation": "La topologia a stella è tipica delle LAN, dove i nodi comunicano attraverso un nodo centrale, come uno switch."
+    },
+    {
+        "id": 100,
+        "question": "Qual è il ruolo principale degli ISP (Internet Service Provider)?",
+        "options": {
+            "A": "Collegare tra loro reti private senza accesso a Internet.",
+            "B": "Offrire hardware per la connessione di reti.",
+            "C": "Gestire esclusivamente le connessioni satellitari.",
+            "D": "Consentire l'accesso a Internet e fornire servizi di rete."
+        },
+        "correctAnswer": "D",
+        "explanation": "Gli ISP forniscono accesso a Internet e spesso offrono anche altri servizi di rete, come caselle di posta elettronica o hosting."
+    },
+    {
+        "id": 101,
+        "question": "Quale caratteristica deve possedere un oggetto per essere considerato un dispositivo IoT?",
+        "options": {
+            "A": "Deve utilizzare esclusivamente il protocollo IPv4.",
+            "B": "Deve essere alimentato da energia solare.",
+            "C": "Deve essere identificato univocamente e avere capacità di comunicazione.",
+            "D": "Deve essere in grado di operare senza connessione di rete."
+        },
+        "correctAnswer": "C",
+        "explanation": "Un dispositivo IoT deve essere identificabile univocamente e deve poter comunicare, che sia con altri dispositivi o con un server. Questi sono requisiti fondamentali per l’IoT."
+    },
+    {
+        "id": 102,
+        "question": "Qual è uno dei vantaggi principali del Cloud Computing rispetto alle infrastrutture tradizionali?",
+        "options": {
+            "A": "Permette l'accesso ai servizi solo tramite reti locali.",
+            "B": "Richiede hardware dedicato per ogni utente.",
+            "C": "Consente di scalare le risorse in base alle necessità.",
+            "D": "Elimina completamente i rischi legati alla sicurezza."
+        },
+        "correctAnswer": "C",
+        "explanation": "Il Cloud Computing offre scalabilità, ovvero la possibilità di aumentare o ridurre le risorse in base ai bisogni dell'utente, un grande vantaggio rispetto ai sistemi tradizionali con risorse statiche."
+    },
+    {
+        "id": 103,
+        "question": "Qual è il ruolo del livello di trasporto nello stack TCP/IP?",
+        "options": {
+            "A": "Stabilire il percorso fisico tra i nodi della rete.",
+            "B": "Convertire i dati in segnali fisici per la trasmissione.",
+            "C": "Garantire una comunicazione affidabile tra i processi tramite protocolli come TCP e UDP.",
+            "D": "Assegnare indirizzi MAC ai dispositivi della rete."
+        },
+        "correctAnswer": "C",
+        "explanation": "Il livello di trasporto si occupa di garantire la comunicazione tra i processi utilizzando protocolli come TCP (affidabile) e UDP (non affidabile)."
+    },
+    {
+        "id": 104,
+        "question": "Qual è una caratteristica chiave del modello Platform as a Service (PaaS)?",
+        "options": {
+            "A": "Fornisce solo spazio di archiviazione per i dati.",
+            "B": "È utilizzato esclusivamente per ospitare siti web statici.",
+            "C": "Permette agli sviluppatori di creare applicazioni senza preoccuparsi dell'infrastruttura sottostante.",
+            "D": "Offre accesso diretto all'hardware fisico per la configurazione manuale."
+        },
+        "correctAnswer": "C",
+        "explanation": "Il PaaS fornisce una piattaforma che consente agli sviluppatori di concentrarsi sulla scrittura e distribuzione di codice, senza dover gestire server, storage o reti."
+    },
+    {
+        "id": 105,
+        "question": "Quale delle seguenti tecnologie è una combinazione del sistema RFID con altre tecnologie di connettività?",
+        "options": {
+            "A": "Codice a barre.",
+            "B": "LAN (Local Area Network).",
+            "C": "6LoWPAN.",
+            "D": "NFC (Near Field Communication)."
+        },
+        "correctAnswer": "D",
+        "explanation": "NFC combina il sistema RFID con altre tecnologie di connettività, consentendo comunicazioni bidirezionali a corto raggio."
+    },
+    {
+        "id": 106,
+        "question": "In un modello di rete peer-to-peer, quale delle seguenti affermazioni è corretta?",
+        "options": {
+            "A": "Il server centralizzato gestisce tutte le richieste di connessione dei nodi.",
+            "B": "I client inviano richieste al server per ottenere risorse.",
+            "C": "I nodi sono tutti uguali e si comportano sia come client che come server.",
+            "D": "I nodi inviano richieste ai client."
+        },
+        "correctAnswer": "C",
+        "explanation": "In un modello peer-to-peer, ogni nodo è in grado di agire sia come client che come server, condividendo risorse senza un server centralizzato."
+    },
+    {
+        "id": 107,
+        "question": "Qual è uno scenario più appropriato per l'uso di NFC rispetto ad altre tecnologie IoT?",
+        "options": {
+            "A": "Comunicazioni a lungo raggio in reti LAN.",
+            "B": "Gestione di dispositivi IoT in aree industriali remote.",
+            "C": "Pagamenti contactless e autenticazione di prossimità.",
+            "D": "Reti di sensori per il monitoraggio ambientale su vasta scala."
+        },
+        "correctAnswer": "C",
+        "explanation": "La tecnologia NFC, grazie alla comunicazione bidirezionale a corto raggio, è ideale per applicazioni come pagamenti contactless e autenticazione."
+    },
+    {
+        "id": 108,
+        "question": "Quale delle seguenti affermazioni descrive correttamente il concetto di indirizzo MAC?",
+        "options": {
+            "A": "È un numero che identifica il tipo di servizio utilizzato su Internet.",
+            "B": "È un indirizzo logico utilizzato per identificare un dispositivo su Internet.",
+            "C": "È un identificativo assegnato dall’utente.",
+            "D": "È un indirizzo fisico univoco assegnato dal produttore della scheda di rete."
+        },
+        "correctAnswer": "D",
+        "explanation": "L'indirizzo MAC (Media Access Control) è un identificativo fisico assegnato dai produttori ai dispositivi di rete, come le schede Ethernet o Wi-Fi."
+    },
+    {
+        "id": 109,
+        "question": "Qual è la funzione del livello di rete nel modello TCP/IP?",
+        "options": {
+            "A": "Garantire la consegna affidabile dei dati.",
+            "B": "Tradurre gli indirizzi IP in indirizzi MAC.",
+            "C": "Gestire l'instradamento dei pacchetti tra i nodi di rete.",
+            "D": "Stabilire la connessione logica tra i processi."
+        },
+        "correctAnswer": "C",
+        "explanation": "Il livello di rete si occupa dell'instradamento dei pacchetti tra i nodi della rete, utilizzando indirizzi IP."
+    },
+    {
+        "id": 110,
+        "question": "Cosa permette il protocollo 6LoWPAN?",
+        "options": {
+            "A": "La comunicazione tra dispositivi su larga scala.",
+            "B": "La crittografia dei dati.",
+            "C": "L'integrazione con dispositivi non connessi.",
+            "D": "L'uso di IPv6 su reti personali a basso consumo energetico."
+        },
+        "correctAnswer": "D",
+        "explanation": "6LoWPAN è progettato per adattare IPv6 a dispositivi IoT con risorse limitate, supportando efficienza energetica e interoperabilità."
+    },
+    {
+        "id": 111,
+        "question": "Qual è una delle principali funzioni di un sistema operativo nei sistemi multiprogrammati?",
+        "options": {
+            "A": "Impedire la comunicazione tra processi.",
+            "B": "Eliminare i dati inutilizzati automaticamente.",
+            "C": "Allocare le risorse del sistema in modo efficiente.",
+            "D": "Garantire che un solo programma sia in esecuzione alla volta."
+        },
+        "correctAnswer": "C",
+        "explanation": "Nei sistemi multiprogrammati, il sistema operativo deve distribuire le risorse tra i vari processi per ottimizzare l'uso del sistema e prevenire conflitti tra processi."
+    },
+    {
+        "id": 112,
+        "question": "Qual è la caratteristica principale dei sistemi batch degli anni '50?",
+        "options": {
+            "A": "Supportano molteplici utenti contemporaneamente.",
+            "B": "Permettono la programmazione in linguaggi di alto livello.",
+            "C": "Eseguono un job alla volta senza interazione con l’utente.",
+            "D": "Utilizzano l’intelligenza artificiale per gestire le risorse."
+        },
+        "correctAnswer": "C",
+        "explanation": "I sistemi batch eseguivano lavori sequenzialmente senza intervento dell’utente durante l’esecuzione, usando schede perforate per input e comandi."
+    },
+    {
+        "id": 113,
+        "question": "Quale delle seguenti caratteristiche è fondamentale in un sistema operativo in tempo reale (RTOS-hard)?",
+        "options": {
+            "A": "Rispondere a richieste solo se il sistema è inattivo.",
+            "B": "Fornire un'interfaccia utente avanzata.",
+            "C": "Garantire la risposta entro una scadenza specifica, senza eccezioni.",
+            "D": "Utilizzare esclusivamente hardware dedicato."
+        },
+        "correctAnswer": "C",
+        "explanation": "Gli RTOS-hard garantiscono che le operazioni critiche siano completate entro scadenze stringenti, come nei sistemi di controllo industriale."
+    },
+    {
+        "id": 114,
+        "question": "Qual è il ruolo della shell in un sistema operativo?",
+        "options": {
+            "A": "Convertire il codice sorgente in linguaggio macchina.",
+            "B": "Allocare dinamicamente la memoria ai programmi in esecuzione.",
+            "C": "Gestire il multitasking tra i processi.",
+            "D": "Fornire un’interfaccia per interagire con il sistema operativo."
+        },
+        "correctAnswer": "D",
+        "explanation": "La shell è l’interfaccia utente che consente di interagire con il sistema operativo tramite comandi testuali o grafici."
+    },
+    {
+        "id": 115,
+        "question": "Qual è uno degli obiettivi dei sistemi operativi moderni?",
+        "options": {
+            "A": "Garantire un accesso simultaneo senza protezioni alle risorse di sistema.",
+            "B": "Implementare sempre architetture monolitiche per migliorare la velocità.",
+            "C": "Limitare l’uso delle risorse hardware ai soli programmi essenziali.",
+            "D": "Offrire sicurezza, robustezza ed estensibilità."
+        },
+        "correctAnswer": "D",
+        "explanation": "I sistemi operativi moderni puntano a garantire efficienza, sicurezza e scalabilità, adattandosi a molteplici scenari e necessità."
+    },
+    {
+        "id": 116,
+        "question": "Qual è il compito principale della Control Unit (CU) nella CPU?",
+        "options": {
+            "A": "Memorizzare dati temporanei.",
+            "B": "Gestire i dispositivi di input/output.",
+            "C": "Eseguire operazioni aritmetiche.",
+            "D": "Controllare il flusso delle operazioni e coordinare i componenti della CPU."
+        },
+        "correctAnswer": "D",
+        "explanation": "La CU interpreta le istruzioni e coordina le attività della CPU, inclusi i trasferimenti tra memoria e ALU."
+    },
+    {
+        "id": 117,
+        "question": "Quale memoria è direttamente accessibile dalla CPU?",
+        "options": {
+            "A": "RAM secondaria.",
+            "B": "Memoria flash.",
+            "C": "Disco rigido.",
+            "D": "Cache."
+        },
+        "correctAnswer": "D",
+        "explanation": "La cache, soprattutto nei livelli L1 e L2, è progettata per essere vicinissima alla CPU e consente accessi ultrarapidi ai dati frequentemente utilizzati."
+    },
+    {
+        "id": 118,
+        "question": "Qual è il vantaggio di una memoria cache nella CPU?",
+        "options": {
+            "A": "Aumenta la capacità di memorizzazione totale.",
+            "B": "Rende la CPU più compatta.",
+            "C": "Riduce il tempo necessario per accedere ai dati più usati.",
+            "D": "Funziona come memoria di massa."
+        },
+        "correctAnswer": "C",
+        "explanation": "La cache è una memoria veloce che riduce i tempi di accesso ai dati frequentemente utilizzati dalla CPU."
+    },
+    {
+        "id": 119,
+        "question": "Quale tra questi dispositivi è un esempio di periferica di I/O?",
+        "options": {
+            "A": "Stampante.",
+            "B": "Monitor.",
+            "C": "Hard disk.",
+            "D": "Mouse."
+        },
+        "correctAnswer": "C",
+        "explanation": "Gli hard disk sono periferiche di input/output perché possono sia leggere che scrivere dati."
+    },
+    {
+        "id": 120,
+        "question": "Qual è la funzione principale dell'Address Bus?",
+        "options": {
+            "A": "Trasferire dati tra dispositivi.",
+            "B": "Controllare l'accesso ai dispositivi di I/O.",
+            "C": "Identificare le locazioni di memoria per i dati.",
+            "D": "Eseguire calcoli complessi."
+        },
+        "correctAnswer": "C",
+        "explanation": "L'Address Bus trasporta gli indirizzi per identificare dove leggere o scrivere i dati nella memoria."
+    },
+    {
+        "id": 121,
+        "question": "Cosa rappresenta il selettore #id in CSS?",
+        "options": {
+            "A": "Una classe condivisa.",
+            "B": "Un elemento unico.",
+            "C": "Un link ipertestuale.",
+            "D": "Una variabile globale."
+        },
+        "correctAnswer": "B",
+        "explanation": "L'id identifica un elemento unico in una pagina, utilizzato con il simbolo #."
+    },
+    {
+        "id": 122,
+        "question": "Qual è la funzione di <link rel='stylesheet'>?",
+        "options": {
+            "A": "Collegare una libreria JavaScript.",
+            "B": "Collegare un file CSS esterno.",
+            "C": "Definire stili inline.",
+            "D": "Aggiungere uno script PHP."
+        },
+        "correctAnswer": "B",
+        "explanation": "Questo tag associa un file CSS esterno alla pagina HTML per la gestione degli stili."
+    },
+    {
+        "id": 123,
+        "question": "Quale proprietà CSS controlla il colore del testo?",
+        "options": {
+            "A": "font-color.",
+            "B": "text-color.",
+            "C": "color.",
+            "D": "style-color."
+        },
+        "correctAnswer": "C",
+        "explanation": "color è la proprietà CSS dedicata al colore del testo, a differenza di font-color, che è obsoleta."
+    },
+    {
+        "id": 124,
+        "question": "Quale metodo per aggiungere CSS ha la priorità più alta?",
+        "options": {
+            "A": "Stile inline.",
+            "B": "Stile interno.",
+            "C": "Stile esterno.",
+            "D": "Stile browser predefinito."
+        },
+        "correctAnswer": "A",
+        "explanation": "Gli stili inline sovrascrivono quelli interni o esterni perché applicati direttamente agli elementi."
+    },
+    {
+        "id": 125,
+        "question": "Come viene visualizzato un link visitato in HTML?",
+        "options": {
+            "A": "In verde.",
+            "B": "In viola.",
+            "C": "In blu.",
+            "D": "In rosso."
+        },
+        "correctAnswer": "B",
+        "explanation": "Per default, i link visitati sono rappresentati in viola, mentre quelli non visitati sono blu."
+    },
+    {
+        "id": 126,
+        "question": "Quale tag HTML viene utilizzato per creare una lista non ordinata?",
+        "options": {
+            "A": "<ul>.",
+            "B": "<ol>.",
+            "C": "<list>.",
+            "D": "<li>."
+        },
+        "correctAnswer": "A",
+        "explanation": "<ul> è per liste non ordinate (punti elenco), mentre <ol> è per liste ordinate."
+    },
+    {
+        "id": 127,
+        "question": "Qual è la sintassi corretta per definire una variabile in PHP?",
+        "options": {
+            "A": "var $name.",
+            "B": "$name = 'value';",
+            "C": "string $name.",
+            "D": "#name = 'value';"
+        },
+        "correctAnswer": "B",
+        "explanation": "In PHP, tutte le variabili iniziano con $, seguite dal nome e dall'assegnazione di un valore."
+    },
+    {
+        "id": 128,
+        "question": "Come si inserisce un commento su più righe in PHP?",
+        "options": {
+            "A": "/* Commento */.",
+            "B": "// Commento.",
+            "C": "<!-- Commento -->.",
+            "D": "### Commento ###."
+        },
+        "correctAnswer": "A",
+        "explanation": "Questa è la sintassi corretta per i commenti su più righe in PHP."
+    },
+    {
+        "id": 129,
+        "question": "Cosa fa il ciclo foreach in PHP?",
+        "options": {
+            "A": "Itera un numero specificato di volte.",
+            "B": "Itera ogni elemento di un array.",
+            "C": "Itera finché una condizione è vera.",
+            "D": "Itera in modo casuale."
+        },
+        "correctAnswer": "B",
+        "explanation": "foreach è specifico per iterare su array, a differenza di altri cicli più generici."
+    },
+    {
+        "id": 130,
+        "question": "Qual è lo scopo del tag <meta charset='UTF-8'>?",
+        "options": {
+            "A": "Specificare la versione HTML.",
+            "B": "Impostare il set di caratteri per il documento.",
+            "C": "Definire lo stile della pagina.",
+            "D": "Aggiungere metadati per l'accesso globale."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il tag <meta charset='UTF-8'> specifica la codifica caratteri (come UTF-8), essenziale per visualizzare correttamente il testo."
+    },
+    {
+        "id": 131,
+        "question": "Qual è una caratteristica distintiva dell'apprendimento supervisionato?",
+        "options": {
+            "A": "I dati usati sono completamente non strutturati.",
+            "B": "Richiede un ambiente simulato per l'interazione.",
+            "C": "Si basa su tecniche di clustering per individuare pattern nei dati.",
+            "D": "Utilizza dati etichettati per apprendere una mappatura input-output."
+        },
+        "correctAnswer": "D",
+        "explanation": "L'apprendimento supervisionato si basa sull'uso di dati etichettati per costruire relazioni tra input e output."
+    },
+    {
+        "id": 132,
+        "question": "Cosa distingue il Deep Learning dal Machine Learning tradizionale?",
+        "options": {
+            "A": "Usa reti neurali profonde con più strati di nodi.",
+            "B": "Richiede meno dati per funzionare.",
+            "C": "Non utilizza modelli matematici complessi.",
+            "D": "Non ha bisogno di processi di addestramento."
+        },
+        "correctAnswer": "A",
+        "explanation": "Il termine 'deep' nel Deep Learning si riferisce ai molteplici strati nelle reti neurali."
+    },
+    {
+        "id": 133,
+        "question": "Qual è il ruolo principale dell’intelligenza artificiale (AI) nel Metaverso?",
+        "options": {
+            "A": "Aggiungere elementi virtuali al mondo reale.",
+            "B": "Creare mondi dinamici e personalizzati.",
+            "C": "Rendere le transazioni sicure e trasparenti.",
+            "D": "Progettare visori di realtà aumentata."
+        },
+        "correctAnswer": "B",
+        "explanation": "L’AI permette di creare esperienze adattive e interattive, migliorando il coinvolgimento e la personalizzazione."
+    },
+    {
+        "id": 134,
+        "question": "Quale piattaforma utilizza blockchain per consentire la proprietà di terreni virtuali?",
+        "options": {
+            "A": "VRChat.",
+            "B": "Roblox.",
+            "C": "Decentraland.",
+            "D": "Second Life."
+        },
+        "correctAnswer": "C",
+        "explanation": "Decentraland utilizza la blockchain per offrire un sistema decentralizzato di proprietà di beni virtuali."
+    },
+    {
+        "id": 135,
+        "question": "Qual è l'obiettivo del fine-tuning durante la creazione di un GPT?",
+        "options": {
+            "A": "Ridurre il tempo di calcolo del modello.",
+            "B": "Aumentare la capacità del modello di generare immagini.",
+            "C": "Migliorare l'estetica dell'interfaccia.",
+            "D": "Adattare un modello preaddestrato a compiti specifici."
+        },
+        "correctAnswer": "D",
+        "explanation": "Il fine-tuning consente di personalizzare il comportamento del modello su specifici tipi di input e output."
+    },
+    {
+        "id": 136,
+        "question": "Che cosa distingue GPT Builder dagli approcci tradizionali per creare modelli GPT?",
+        "options": {
+            "A": "Richiede l'uso di GPU avanzate.",
+            "B": "Funziona esclusivamente con dati visivi.",
+            "C": "Limita l'accesso ai modelli agli utenti esperti.",
+            "D": "Non necessita di competenze di programmazione."
+        },
+        "correctAnswer": "D",
+        "explanation": "GPT Builder permette di creare modelli personalizzati facilmente, utilizzando interfacce intuitive e configurazioni guidate."
+    },
+    {
+        "id": 137,
+        "question": "Qual è un vantaggio del pretraining rispetto al fine-tuning nei GPT?",
+        "options": {
+            "A": "Permette di lavorare con dataset molto piccoli.",
+            "B": "Rende il modello pronto per compiti generici.",
+            "C": "Aumenta la velocità di risposta del modello.",
+            "D": "Riduce il rischio di bias nei dati."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il pretraining fornisce al modello una conoscenza generale del linguaggio, utile per molte applicazioni."
+    },
+    {
+        "id": 138,
+        "question": "Quale componente di Pinokio consente la comunicazione tra diverse applicazioni?",
+        "options": {
+            "A": "Il sistema operativo.",
+            "B": "Le API.",
+            "C": "I file CSS.",
+            "D": "Il modulo di editing video."
+        },
+        "correctAnswer": "B",
+        "explanation": "Le API di Pinokio facilitano la comunicazione e l'integrazione tra varie applicazioni e sistemi."
+    },
+    {
+        "id": 139,
+        "question": "Qual è una caratteristica distintiva di XTTS rispetto ad altre tecnologie di sintesi vocale?",
+        "options": {
+            "A": "Supporta solo una lingua.",
+            "B": "Funziona solo offline.",
+            "C": "Richiede vasti dataset per la clonazione vocale.",
+            "D": "Clona voci con un campione di soli 6 secondi."
+        },
+        "correctAnswer": "D",
+        "explanation": "XTTS rende la clonazione vocale veloce ed efficiente eliminando la necessità di vasti dataset, lavorando con campioni brevi."
+    },
+    {
+        "id": 140,
+        "question": "Come Pinokio semplifica la gestione degli script per utenti non esperti?",
+        "options": {
+            "A": "Offrendo un'interfaccia utente limitata.",
+            "B": "Automatizzando solo le attività di base.",
+            "C": "Riducendo il numero di funzionalità avanzate.",
+            "D": "Fornendo script già pronti e una comunità di supporto attiva."
+        },
+        "correctAnswer": "D",
+        "explanation": "La disponibilità di script predefiniti e l'accesso a una comunità su Discord rendono Pinokio accessibile anche a principianti."
+    },
+    {
+        "id": 141,
+        "question": "Cosa rappresenta la 'congettura di Church-Turing'?",
+        "options": {
+            "A": "Una teoria sull'incompatibilità tra hardware e software.",
+            "B": "La teoria che lega i processi di calcolo alle reti neurali.",
+            "C": "Una teoria sull'integrazione di intelligenza artificiale e pensiero umano.",
+            "D": "La convinzione che ogni problema computabile possa essere risolto da una macchina di Turing."
+        },
+        "correctAnswer": "D",
+        "explanation": "La congettura di Church-Turing afferma che ogni problema computabile può essere risolto utilizzando una macchina di Turing, un concetto fondamentale dell'informatica teorica."
+    },
+    {
+        "id": 142,
+        "question": "Qual è il ruolo della 'programmazione microcodice' nel firmware?",
+        "options": {
+            "A": "Tradurre comandi di alto livello in codice macchina.",
+            "B": "Aumentare la velocità delle applicazioni.",
+            "C": "Fornire un'interfaccia per l'utente finale.",
+            "D": "Permettere l'aggiornamento automatico dei driver."
+        },
+        "correctAnswer": "A",
+        "explanation": "Il microcodice è uno strato al di sotto del linguaggio macchina che consente al firmware di eseguire istruzioni fondamentali nei componenti elettronici."
+    },
+    {
+        "id": 143,
+        "question": "Qual è l'impatto principale del 'toyotismo' sull'organizzazione del lavoro?",
+        "options": {
+            "A": "Introduzione di una gerarchia più rigida.",
+            "B": "Incremento della standardizzazione delle operazioni.",
+            "C": "Riduzione delle interazioni umane nei processi.",
+            "D": "Maggiore flessibilità e responsabilità per i lavoratori."
+        },
+        "correctAnswer": "D",
+        "explanation": "Il toyotismo ha ribaltato i paradigmi del taylorismo, enfatizzando la collaborazione e la flessibilità operativa."
+    },
+    {
+        "id": 144,
+        "question": "Come si differenzia il pensiero computazionale dalla semplice capacità di programmazione?",
+        "options": {
+            "A": "Si focalizza sulla scrittura efficiente di codice.",
+            "B": "Richiede solo conoscenze di base sui linguaggi di programmazione.",
+            "C": "Include l'abilità di formulare problemi e soluzioni in termini computazionali.",
+            "D": "È limitato all'uso di strumenti software."
+        },
+        "correctAnswer": "C",
+        "explanation": "Il pensiero computazionale implica la capacità di definire e risolvere problemi in modo che siano interpretabili da una macchina, superando la mera programmazione."
+    },
+    {
+        "id": 145,
+        "question": "Quale componente delle 'Big Ideas' dell'informatica si riferisce alla gestione di grandi quantità di dati?",
+        "options": {
+            "A": "Abstraction.",
+            "B": "Creativity.",
+            "C": "Algorithms.",
+            "D": "Data and Information."
+        },
+        "correctAnswer": "D",
+        "explanation": "La 'Big Idea' dedicata a 'Data and Information' riguarda la gestione e l'analisi di dati per trasformarli in conoscenza."
+    },
+    {
+        "id": 146,
+        "question": "Cosa si intende per 'Internet delle Cose' (IoT)?",
+        "options": {
+            "A": "La connessione esclusiva di computer a Internet.",
+            "B": "Una rete di calcolatori che funziona offline.",
+            "C": "L'interazione tra sistemi fisici e cibernetici attraverso Internet.",
+            "D": "Un protocollo per le telecomunicazioni."
+        },
+        "correctAnswer": "C",
+        "explanation": "L'IoT consente a dispositivi fisici di interagire attraverso la rete, formando un ecosistema di oggetti connessi."
+    },
+    {
+        "id": 147,
+        "question": "Come la realtà aumentata supporta applicazioni in ambito industriale?",
+        "options": {
+            "A": "Aggiungendo interfacce virtuali ai macchinari.",
+            "B": "Eliminando completamente i controlli fisici.",
+            "C": "Creando ambienti immersivi scollegati dal mondo reale.",
+            "D": "Riducendo l'uso di sensori fisici."
+        },
+        "correctAnswer": "A",
+        "explanation": "La realtà aumentata arricchisce il contesto fisico con dati visivi utili per migliorare operazioni industriali, come nella manutenzione e progettazione."
+    },
+    {
+        "id": 148,
+        "question": "Quale tra le seguenti tecnologie ha contribuito maggiormente alla rivoluzione dell'impresa 4.0?",
+        "options": {
+            "A": "Sistemi peer-to-peer.",
+            "B": "Software open source.",
+            "C": "Interfacce analogiche.",
+            "D": "Cyber-Physical Systems (CPS)."
+        },
+        "correctAnswer": "D",
+        "explanation": "I CPS, combinando fisico e digitale, permettono una produzione integrata e intelligente."
+    },
+    {
+        "id": 149,
+        "question": "Cosa implica l'uso dell'astrazione nei modelli computazionali complessi?",
+        "options": {
+            "A": "Trasformare i dati in codice eseguibile.",
+            "B": "Utilizzare esclusivamente linguaggi di basso livello.",
+            "C": "Aggiungere dettagli ai problemi.",
+            "D": "Rimuovere informazioni superflue per evidenziare concetti rilevanti."
+        },
+        "correctAnswer": "D",
+        "explanation": "L'astrazione aiuta a semplificare la complessità isolando solo gli aspetti cruciali del problema."
+    },
+    {
+        "id": 150,
+        "question": "Qual è il principio chiave del 'calm computing' nel contesto del computing ubiquitario?",
+        "options": {
+            "A": "Essere sempre visibile e attivo.",
+            "B": "Sostituire l'interazione umana con automazione.",
+            "C": "Limitare l'accesso agli strumenti digitali.",
+            "D": "Agire in background senza richiedere attenzione costante."
+        },
+        "correctAnswer": "D",
+        "explanation": "Il 'calm computing' si basa sull'idea di rendere la tecnologia trasparente, agendo solo quando necessario."
+    },
+    {
+        "id": 151,
+        "question": "Qual è la principale funzione della ricorsione negli algoritmi?",
+        "options": {
+            "A": "Creare loop infiniti in un processo.",
+            "B": "Garantire che il codice sia sempre ottimizzato.",
+            "C": "Semplificare problemi senza suddividerli.",
+            "D": "Risolvere problemi richiamando se stessi con sotto-problemi."
+        },
+        "correctAnswer": "D",
+        "explanation": "La ricorsione è utile quando un problema può essere diviso in parti più piccole dello stesso tipo. Ogni passo risolve una parte del problema richiamando l’algoritmo su un sottoinsieme."
+    },
+    {
+        "id": 152,
+        "question": "Che cosa si intende per 'generalizzazione' nel pensiero computazionale?",
+        "options": {
+            "A": "La riduzione di un problema complesso a uno più semplice.",
+            "B": "La creazione di dati casuali per testare algoritmi.",
+            "C": "La progettazione di soluzioni hardware.",
+            "D": "L’applicazione di una soluzione a una classe più ampia di problemi."
+        },
+        "correctAnswer": "D",
+        "explanation": "Generalizzare significa trovare una soluzione universale o adattabile a problemi diversi, aumentando l’efficienza."
+    },
+    {
+        "id": 153,
+        "question": "Che cosa si intende per 'complessità computazionale' di un algoritmo?",
+        "options": {
+            "A": "La quantità di memoria necessaria per eseguire un algoritmo.",
+            "B": "La difficoltà di scrivere un algoritmo in codice.",
+            "C": "Il numero di righe di codice in un programma.",
+            "D": "La misura delle risorse necessarie (tempo e spazio) per eseguire un algoritmo."
+        },
+        "correctAnswer": "D",
+        "explanation": "La complessità computazionale valuta quanto un algoritmo consuma in termini di tempo e memoria, cruciali per applicazioni scalabili."
+    },
+    {
+        "id": 154,
+        "question": "Quale tra i seguenti è un esempio di automazione efficace?",
+        "options": {
+            "A": "L’elaborazione manuale di dati per garantire precisione.",
+            "B": "La generazione di script senza verifica di errore.",
+            "C": "La creazione di diagrammi manuali.",
+            "D": "L’utilizzo di un programma per generare report periodici."
+        },
+        "correctAnswer": "D",
+        "explanation": "L’automazione si applica a processi ripetitivi, liberando risorse umane e garantendo efficienza."
+    },
+    {
+        "id": 155,
+        "question": "Che cosa significa 'aliasing' in grafica digitale?",
+        "options": {
+            "A": "La creazione di linee fluide tramite interpolazione.",
+            "B": "Un aumento artificiale della qualità visiva.",
+            "C": "La compressione dei dati grafici per migliorare la qualità.",
+            "D": "Un effetto di scalettatura visibile causato da una risoluzione insufficiente."
+        },
+        "correctAnswer": "D",
+        "explanation": "L’aliasing si verifica quando la risoluzione non è abbastanza alta da rappresentare correttamente le linee, causando bordi scalettati."
+    },
+    {
+        "id": 156,
+        "question": "Che cosa si intende per 'subsampling' nei video digitali?",
+        "options": {
+            "A": "Un aumento dei dettagli per migliorare la qualità.",
+            "B": "Un processo che rimuove fotogrammi non necessari.",
+            "C": "La conversione automatica di video a risoluzioni inferiori.",
+            "D": "Una riduzione dei dettagli cromatici per ottimizzare le risorse."
+        },
+        "correctAnswer": "D",
+        "explanation": "Il subsampling risparmia risorse concentrando i dati su luminanza e riducendo i dettagli dei colori."
+    },
+    {
+        "id": 157,
+        "question": "Qual è il principale vantaggio del formato FLAC rispetto all’MP3?",
+        "options": {
+            "A": "È compatibile con tutti i dispositivi.",
+            "B": "Comprime i file in modo più efficiente.",
+            "C": "Supporta solo audio in alta risoluzione.",
+            "D": "È un formato senza perdita di qualità."
+        },
+        "correctAnswer": "D",
+        "explanation": "FLAC usa una compressione lossless, mantenendo intatta la qualità audio originale, a differenza dell’MP3 che elimina informazioni."
+    },
+    {
+        "id": 158,
+        "question": "Che cosa si intende per identità sonora in una trasmissione radiofonica?",
+        "options": {
+            "A": "Una musica di sottofondo casuale.",
+            "B": "Un elemento che rende riconoscibile un programma o una stazione.",
+            "C": "Un jingle utilizzato una sola volta.",
+            "D": "Un effetto sonoro scelto a caso."
+        },
+        "correctAnswer": "B",
+        "explanation": "L’identità sonora include elementi come jingle o effetti che caratterizzano e identificano il programma."
+    },
+    {
+        "id": 159,
+        "question": "Qual è il principale scopo di un pitch per un podcast?",
+        "options": {
+            "A": "Dettagliare la parte tecnica del processo di registrazione.",
+            "B": "Fornire informazioni generali senza approfondimenti.",
+            "C": "Creare contenuti lunghi senza obiettivi precisi.",
+            "D": "Presentare l’idea centrale in modo chiaro e coinvolgente."
+        },
+        "correctAnswer": "D",
+        "explanation": "Un pitch efficace sintetizza l’idea chiave per catturare l’interesse del pubblico o di possibili investitori."
+    },
+    {
+        "id": 160,
+        "question": "Che cosa distingue un format 'live' da altri tipi di format radiofonici?",
+        "options": {
+            "A": "È preregistrato e poi trasmesso.",
+            "B": "Contiene solo contributi musicali.",
+            "C": "Non utilizza speaker o conduttori.",
+            "D": "Consente interazioni dirette con il pubblico in tempo reale."
+        },
+        "correctAnswer": "D",
+        "explanation": "Un format live consente il coinvolgimento diretto del pubblico, offrendo un’esperienza dinamica e interattiva."
+    },
+    {
+        "id": 161,
+        "question": "Quale tecnologia introdotta da Hartley nel 1904 ha segnato l'inizio dell'elettronica moderna?",
+        "options": {
+            "A": "Il triodo.",
+            "B": "Il transistor.",
+            "C": "L'oscilloscopio.",
+            "D": "La telescrivente."
+        },
+        "correctAnswer": "A",
+        "explanation": "Il triodo è un componente elettronico inventato da Lee De Forest basandosi sugli studi di Hartley. Ha permesso la modulazione e l'amplificazione dei segnali elettrici, gettando le basi per le moderne telecomunicazioni e l'elettronica."
+    },
+    {
+        "id": 162,
+        "question": "Qual è stato uno dei principali limiti dell'Internet 1.0?",
+        "options": {
+            "A": "La mancanza di interattività e la centralità dei documenti.",
+            "B": "L'impossibilità di accedere tramite connessioni mobili.",
+            "C": "La dipendenza esclusiva da protocolli proprietari.",
+            "D": "L'assenza di reti peer-to-peer."
+        },
+        "correctAnswer": "A",
+        "explanation": "L'Internet 1.0 era orientato alla distribuzione di documenti (Web of Documents) e non prevedeva interazione diretta con gli utenti. Questo limite è stato superato con l'avvento del Web 2.0."
+    },
+    {
+        "id": 163,
+        "question": "In una rete locale (LAN) che utilizza una topologia a stella, cosa succede se il nodo centrale (ad esempio uno switch) si guasta?",
+        "options": {
+            "A": "Tutta la rete continua a funzionare senza interruzioni.",
+            "B": "Tutti i dispositivi della rete perdono la connessione.",
+            "C": "Solo i nodi wireless continuano a comunicare.",
+            "D": "La rete si trasforma automaticamente in una topologia a bus."
+        },
+        "correctAnswer": "B",
+        "explanation": "Nella topologia a stella, tutti i dispositivi sono connessi al nodo centrale. Se quest’ultimo si guasta, la comunicazione tra i nodi è interrotta, poiché non esistono collegamenti diretti tra i dispositivi periferici."
+    },
+    {
+        "id": 164,
+        "question": "Quale differenza esiste tra i metodi HTTP 'GET' e 'POST'?",
+        "options": {
+            "A": "'GET' trasmette i dati nella URL, mentre 'POST' li invia nel corpo della richiesta.",
+            "B": "'POST' è usato solo per richieste persistenti.",
+            "C": "'GET' richiede autenticazione, 'POST' no.",
+            "D": "'POST' funziona solo con protocolli crittografati."
+        },
+        "correctAnswer": "A",
+        "explanation": "Il metodo 'GET' aggiunge i dati direttamente alla URL ed è visibile, mentre 'POST' invia i dati nel corpo della richiesta, rendendoli meno visibili e più adatti per dati sensibili."
+    },
+    {
+        "id": 165,
+        "question": "Qual è la principale funzione del modello client/server nel Web?",
+        "options": {
+            "A": "Gestire la comunicazione tra un browser (client) e un server web per richiedere e fornire risorse.",
+            "B": "Coordinare il flusso di dati tra server web distinti.",
+            "C": "Crittografare automaticamente tutte le comunicazioni.",
+            "D": "Sincronizzare i dati tra dispositivi client."
+        },
+        "correctAnswer": "A",
+        "explanation": "Il modello client/server è alla base del funzionamento del Web, dove il client (browser) invia richieste per risorse e il server risponde fornendo il contenuto richiesto."
+    },
+    {
+        "id": 166,
+        "question": "Cosa distingue un portale web orizzontale da uno verticale?",
+        "options": {
+            "A": "Un portale orizzontale offre risorse generiche, mentre uno verticale è focalizzato su un tema specifico.",
+            "B": "Un portale orizzontale è pubblico, mentre uno verticale è privato.",
+            "C": "Un portale verticale usa HTML, mentre uno orizzontale no.",
+            "D": "Un portale orizzontale funziona offline, mentre uno verticale no."
+        },
+        "correctAnswer": "A",
+        "explanation": "I portali orizzontali, come Yahoo!, aggregano risorse di vario tipo e argomento. I portali verticali, invece, sono dedicati a temi specifici, come medicina o tecnologia."
+    },
+    {
+        "id": 167,
+        "question": "Quale tra le seguenti caratteristiche rende HTTP un protocollo 'stateless'?",
+        "options": {
+            "A": "Non mantiene memoria delle interazioni precedenti tra client e server.",
+            "B": "Le connessioni si chiudono automaticamente dopo ogni richiesta.",
+            "C": "I dati scambiati non sono mai memorizzati localmente.",
+            "D": "Non supporta connessioni multiple con lo stesso server."
+        },
+        "correctAnswer": "A",
+        "explanation": "HTTP è 'stateless' perché ogni richiesta è trattata in modo indipendente, senza che il server tenga traccia delle precedenti. Questo riduce la complessità, ma richiede l'uso di strumenti come cookie o sessioni per mantenere lo stato."
+    },
+    {
+        "id": 168,
+        "question": "Qual è il vantaggio principale delle reti geografiche (WAN) che sfruttano reti telefoniche esistenti rispetto a linee dedicate?",
+        "options": {
+            "A": "Hanno una maggiore larghezza di banda.",
+            "B": "Sono meno costose e più facilmente accessibili.",
+            "C": "Offrono una connessione più stabile.",
+            "D": "Possono essere configurate senza alcun dispositivo di rete."
+        },
+        "correctAnswer": "B",
+        "explanation": "Le WAN che sfruttano le reti telefoniche esistenti sono meno costose rispetto all’installazione di linee dedicate, poiché utilizzano infrastrutture già disponibili. Tuttavia, queste connessioni possono avere limitazioni in termini di stabilità e velocità rispetto alle linee dedicate."
+    },
+    {
+        "id": 169,
+        "question": "Qual è l'obiettivo principale del Web of Data (Web 3.0) rispetto al Web 2.0?",
+        "options": {
+            "A": "Passare da documenti a dati strutturati e relazionati.",
+            "B": "Integrare i social media direttamente nei protocolli HTTP.",
+            "C": "Creare reti esclusivamente peer-to-peer per la sicurezza.",
+            "D": "Eliminare l'uso di linguaggi di markup come HTML."
+        },
+        "correctAnswer": "A",
+        "explanation": "Il Web 3.0 si basa sulla gestione automatica e semantica dei dati (Big Data e linked data), consentendo connessioni più intelligenti e mirate rispetto al Web 2.0, che era focalizzato sull'interattività degli utenti."
+    },
+    {
+        "id": 170,
+        "question": "Cosa rappresenta il codice HTTP 301?",
+        "options": {
+            "A": "Una redirezione permanente della risorsa richiesta.",
+            "B": "Un errore del server durante la redirezione.",
+            "C": "Una richiesta non valida inviata dal client.",
+            "D": "Una redirezione temporanea della risorsa."
+        },
+        "correctAnswer": "A",
+        "explanation": "Il codice 301 è usato per segnalare che una risorsa è stata spostata permanentemente a un nuovo URL. I browser aggiornano i loro riferimenti alla nuova posizione."
+    },
+    {
+        "id": 171,
+        "question": "Qual è il principale vantaggio di utilizzare il protocollo 6LoWPAN nei dispositivi IoT?",
+        "options": {
+            "A": "Permette la comunicazione bidirezionale su lunghe distanze senza consumo di energia.",
+            "B": "Abilita l'uso di IPv6 su reti a basso consumo energetico e a bassa potenza.",
+            "C": "È l'unico protocollo compatibile con reti WAN nei dispositivi IoT.",
+            "D": "Consente la crittografia automatica dei dati nei sistemi embedded."
+        },
+        "correctAnswer": "B",
+        "explanation": "6LoWPAN consente di utilizzare IPv6 su reti di dispositivi a basso consumo energetico, superando i limiti dei tradizionali protocolli IP."
+    },
+    {
+        "id": 172,
+        "question": "Quale criticità specifica è legata all’adozione diffusa dell’IoT?",
+        "options": {
+            "A": "Mancanza di dispositivi connessi nelle infrastrutture WAN.",
+            "B": "Vulnerabilità dovute alle limitate capacità computazionali dei dispositivi IoT.",
+            "C": "Difficoltà nell’identificazione univoca degli oggetti tramite QR code.",
+            "D": "Elevato costo di implementazione delle tecnologie RFID."
+        },
+        "correctAnswer": "B",
+        "explanation": "La limitata capacità computazionale dei dispositivi IoT rende difficoltosa l'implementazione di protocolli di sicurezza avanzati, esponendo i dispositivi a vulnerabilità."
+    },
+    {
+        "id": 173,
+        "question": "Qual è un esempio di come il Cloud Computing supporta la disponibilità dei servizi?",
+        "options": {
+            "A": "Riducendo automaticamente i costi operativi aziendali.",
+            "B": "Consentendo di aggiungere o rimuovere risorse in base alla domanda.",
+            "C": "Garantendo l’accesso ai servizi da qualsiasi luogo e dispositivo.",
+            "D": "Fornendo applicazioni integrate su reti locali."
+        },
+        "correctAnswer": "C",
+        "explanation": "La disponibilità dei servizi nel Cloud Computing si basa sull'accessibilità da qualsiasi luogo e dispositivo, grazie alla natura distribuita e basata su rete del cloud."
+    },
+    {
+        "id": 174,
+        "question": "Che cosa succede al messaggio mentre attraversa i livelli dello stack TCP/IP?",
+        "options": {
+            "A": "Rimane invariato e viene trasmesso direttamente tra il mittente e il destinatario.",
+            "B": "Viene incapsulato, aggiungendo intestazioni specifiche a ogni livello.",
+            "C": "Viene decifrato e ricodificato a ogni livello per garantire la sicurezza.",
+            "D": "Subisce una compressione automatica per ridurre la latenza."
+        },
+        "correctAnswer": "B",
+        "explanation": "Nei livelli dello stack TCP/IP, il messaggio viene incapsulato: a ogni livello viene aggiunta un'intestazione specifica per il suo funzionamento."
+    },
+    {
+        "id": 175,
+        "question": "Qual è la differenza principale tra IPv4 e IPv6?",
+        "options": {
+            "A": "Gli indirizzi IPv4 sono utilizzati solo in reti locali, mentre IPv6 è usato su Internet.",
+            "B": "IPv4 utilizza indirizzi a 32 bit, mentre IPv6 utilizza indirizzi a 128 bit.",
+            "C": "IPv4 supporta crittografia integrata, mentre IPv6 no.",
+            "D": "IPv6 è un protocollo di trasporto, mentre IPv4 è un protocollo di rete."
+        },
+        "correctAnswer": "B",
+        "explanation": "IPv4 utilizza indirizzi a 32 bit, mentre IPv6 utilizza indirizzi a 128 bit, garantendo una maggiore capacità di indirizzamento."
+    },
+    {
+        "id": 176,
+        "question": "In che modo il protocollo TCP garantisce la consegna affidabile dei dati?",
+        "options": {
+            "A": "Utilizza il controllo di flusso per ridurre la congestione della rete.",
+            "B": "Rinomina ogni pacchetto per evitare conflitti di indirizzi.",
+            "C": "Implementa il controllo di errore tramite checksum e la ritrasmissione dei pacchetti persi.",
+            "D": "Aumenta la velocità di trasmissione riducendo il numero di pacchetti inviati."
+        },
+        "correctAnswer": "C",
+        "explanation": "TCP garantisce la consegna affidabile dei dati tramite l'uso di checksum e ritrasmissioni in caso di pacchetti persi."
+    },
+    {
+        "id": 177,
+        "question": "Qual è il principale vantaggio dell'uso di NAT nelle reti?",
+        "options": {
+            "A": "Ridurre la latenza della rete aumentando la velocità di trasmissione.",
+            "B": "Consentire a più dispositivi di utilizzare un solo indirizzo IP pubblico.",
+            "C": "Permettere il controllo totale del traffico dati su ciascun dispositivo di rete.",
+            "D": "Incrementare la capacità di banda disponibile per ciascun dispositivo."
+        },
+        "correctAnswer": "B",
+        "explanation": "NAT consente a più dispositivi di una rete privata di condividere un singolo indirizzo IP pubblico, migliorando l'efficienza e risparmiando indirizzi IP."
+    },
+    {
+        "id": 178,
+        "question": "Qual è la differenza principale tra i modelli SaaS e PaaS?",
+        "options": {
+            "A": "SaaS fornisce applicazioni pronte all'uso, mentre PaaS offre una piattaforma per sviluppare e distribuire applicazioni.",
+            "B": "PaaS include l'infrastruttura fisica, mentre SaaS si concentra su sistemi embedded.",
+            "C": "PaaS è utilizzato per il monitoraggio dei dati, mentre SaaS è specifico per l'archiviazione.",
+            "D": "SaaS richiede configurazione hardware, mentre PaaS offre scalabilità automatica."
+        },
+        "correctAnswer": "A",
+        "explanation": "SaaS consente agli utenti di utilizzare software già pronti, mentre PaaS fornisce strumenti e piattaforme per sviluppare applicazioni personalizzate."
+    },
+    {
+        "id": 179,
+        "question": "Qual è uno dei principali vantaggi del modello IaaS?",
+        "options": {
+            "A": "Offre accesso esclusivo a data center fisici.",
+            "B": "Permette di affittare risorse hardware scalabili secondo necessità.",
+            "C": "Include la progettazione automatizzata di applicazioni cloud-native.",
+            "D": "Si concentra unicamente sulla sicurezza dei dati degli utenti finali."
+        },
+        "correctAnswer": "B",
+        "explanation": "IaaS consente agli utenti di affittare e scalare risorse hardware come server, storage e reti in base alle esigenze."
+    },
+    {
+        "id": 180,
+        "question": "Qual è la funzione principale dell'indirizzo IP all'interno del livello di rete?",
+        "options": {
+            "A": "Identificare un dispositivo in una LAN tramite l'indirizzo fisico.",
+            "B": "Stabilire una connessione affidabile tra processi.",
+            "C": "Fornire un identificativo logico univoco per il routing dei pacchetti.",
+            "D": "Convertire i dati in segnali fisici per la trasmissione."
+        },
+        "correctAnswer": "C",
+        "explanation": "L'indirizzo IP è un identificativo logico utilizzato per il routing dei pacchetti tra reti, essenziale per la comunicazione su Internet."
+    },
+    {
+        "id": 181,
+        "question": "Quale tecnica permette di migliorare l'efficienza nei sistemi multiprogrammati?",
+        "options": {
+            "A": "L’uso esclusivo del processore da parte di un solo processo.",
+            "B": "L’implementazione di algoritmi di job scheduling.",
+            "C": "La riduzione del numero di processi in esecuzione.",
+            "D": "La disabilitazione delle chiamate di sistema."
+        },
+        "correctAnswer": "B",
+        "explanation": "Nei sistemi multiprogrammati, il job scheduling seleziona i processi in base a priorità e stato, ottimizzando l'uso del processore e riducendo i tempi di attesa."
+    },
+    {
+        "id": 182,
+        "question": "In un sistema distribuito, quale modello consente ai nodi di agire sia come client sia come server?",
+        "options": {
+            "A": "Client-Server.",
+            "B": "Peer-to-Peer.",
+            "C": "Virtual Network.",
+            "D": "Master-Slave."
+        },
+        "correctAnswer": "B",
+        "explanation": "Nel modello Peer-to-Peer (P2P), ogni nodo può sia richiedere servizi (client) sia offrirli (server), garantendo un’architettura distribuita più flessibile."
+    },
+    {
+        "id": 183,
+        "question": "Quale delle seguenti architetture di sistema operativo è considerata la più modulare?",
+        "options": {
+            "A": "Monolitica.",
+            "B": "Microkernel.",
+            "C": "Layered senza astrazioni intermedie.",
+            "D": "Kernel schedulabile."
+        },
+        "correctAnswer": "B",
+        "explanation": "Nei microkernel, solo i componenti essenziali risiedono nel kernel, mentre funzionalità come driver e gestione file sono implementate come moduli separati nello user space."
+    },
+    {
+        "id": 184,
+        "question": "Qual è lo scopo del BIOS nel processo di avvio del computer?",
+        "options": {
+            "A": "Avvia il sistema operativo e gestisce i driver delle periferiche.",
+            "B": "Carica programmi applicativi in memoria secondaria.",
+            "C": "Inizializza l’hardware e carica il sistema operativo in memoria.",
+            "D": "Esegue un controllo antivirus preliminare."
+        },
+        "correctAnswer": "C",
+        "explanation": "Il BIOS esegue una serie di test hardware, inizializza le componenti e avvia il caricamento del sistema operativo, preparando il sistema per l’uso."
+    },
+    {
+        "id": 185,
+        "question": "Che ruolo svolgono le politiche di scheduling nel sistema operativo?",
+        "options": {
+            "A": "Allocare spazio di memoria ai file in base alle dimensioni.",
+            "B": "Determinare l’ordine di esecuzione dei processi in base a criteri predefiniti.",
+            "C": "Controllare l’accesso alla rete locale.",
+            "D": "Sospendere i processi meno recenti in memoria virtuale."
+        },
+        "correctAnswer": "B",
+        "explanation": "Le politiche di scheduling decidono l’ordine di esecuzione dei processi sulla CPU, bilanciando equità ed efficienza."
+    },
+    {
+        "id": 186,
+        "question": "Qual è il principale vantaggio dell'architettura a BUS multipli rispetto al BUS singolo?",
+        "options": {
+            "A": "Richiede meno spazio sulla scheda madre.",
+            "B": "Riduce i costi di produzione del calcolatore.",
+            "C": "Consente comunicazioni simultanee tra diversi componenti.",
+            "D": "Aumenta la larghezza di banda del disco rigido."
+        },
+        "correctAnswer": "C",
+        "explanation": "L'architettura a BUS multipli consente operazioni simultanee, riducendo i colli di bottiglia creati dall'accesso concorrente in un BUS singolo."
+    },
+    {
+        "id": 187,
+        "question": "Qual è il limite principale dei sistemi embedded rispetto ai calcolatori general-purpose?",
+        "options": {
+            "A": "Mancanza di interfacce di rete.",
+            "B": "Maggiore complessità di programmazione.",
+            "C": "Impossibilità di eseguire più applicazioni diverse.",
+            "D": "Necessità di componenti hardware più costosi."
+        },
+        "correctAnswer": "C",
+        "explanation": "I sistemi embedded sono progettati per un'applicazione specifica e non possono adattarsi a più funzioni senza un ridisegno dell'hardware."
+    },
+    {
+        "id": 188,
+        "question": "In che modo i BUS possono influire sulle prestazioni di un calcolatore?",
+        "options": {
+            "A": "Aumentando la quantità di memoria volatile disponibile.",
+            "B": "Riducendo il numero di componenti sulla scheda madre.",
+            "C": "Limitando la velocità massima di trasferimento dati tra CPU e periferiche.",
+            "D": "Incrementando la durata della batteria del dispositivo."
+        },
+        "correctAnswer": "C",
+        "explanation": "La velocità e la larghezza del BUS determinano la quantità di dati trasferibili per ciclo, influendo direttamente sulle prestazioni complessive."
+    },
+    {
+        "id": 189,
+        "question": "Cosa rappresenta l'unità MIPS in riferimento alle CPU?",
+        "options": {
+            "A": "Il numero di cicli di clock al secondo.",
+            "B": "Il numero di istruzioni eseguite al secondo.",
+            "C": "La velocità di trasferimento dei dati dalla memoria.",
+            "D": "La capacità di memorizzazione della cache."
+        },
+        "correctAnswer": "B",
+        "explanation": "MIPS significa 'Million Instructions Per Second' ed è una misura delle prestazioni delle CPU."
+    },
+    {
+        "id": 190,
+        "question": "Quale tra queste affermazioni è vera riguardo alla formattazione fisica di un disco magnetico?",
+        "options": {
+            "A": "Configura il file system del disco.",
+            "B": "Suddivide il disco in tracce e settori.",
+            "C": "Crea una copia di backup dei dati.",
+            "D": "Elimina solo i file temporanei."
+        },
+        "correctAnswer": "B",
+        "explanation": "La formattazione fisica prepara la superficie del disco magnetico creando tracce e settori, ma non configura il file system."
+    },
+    {
+        "id": 191,
+        "question": "Qual è la sintassi per definire una funzione in PHP?",
+        "options": {
+            "A": "function = myFunction() {}",
+            "B": "function myFunction() {}",
+            "C": "def myFunction() {}",
+            "D": "fn myFunction() {}"
+        },
+        "correctAnswer": "B",
+        "explanation": "Questa è la sintassi corretta per definire funzioni in PHP."
+    },
+    {
+        "id": 192,
+        "question": "Qual è la priorità nell'ordine della cascata CSS?",
+        "options": {
+            "A": "Inline > Interno > Esterno",
+            "B": "Esterno > Interno > Inline",
+            "C": "Interno > Inline > Esterno",
+            "D": "Predefinito > Esterno > Inline"
+        },
+        "correctAnswer": "A",
+        "explanation": "Gli stili inline hanno la priorità massima rispetto agli stili interni ed esterni."
+    },
+    {
+        "id": 193,
+        "question": "Cosa rappresenta a:hover nei CSS?",
+        "options": {
+            "A": "Un link non visitato.",
+            "B": "Un link visitato.",
+            "C": "Un link quando il mouse è sopra.",
+            "D": "Un link attivo."
+        },
+        "correctAnswer": "C",
+        "explanation": "La pseudo-classe :hover definisce lo stile quando il mouse passa sopra un elemento."
+    },
+    {
+        "id": 194,
+        "question": "Come si definisce una pseudo-classe nei CSS?",
+        "options": {
+            "A": ".class-name",
+            "B": ":pseudo-class",
+            "C": "#pseudo-class",
+            "D": "::pseudo-class"
+        },
+        "correctAnswer": "B",
+        "explanation": "Le pseudo-classi sono definite con : seguite dal nome della classe."
+    },
+    {
+        "id": 195,
+        "question": "Cosa succede quando una variabile locale in PHP è dichiarata come static?",
+        "options": {
+            "A": "È visibile globalmente.",
+            "B": "Non viene eliminata al termine della funzione.",
+            "C": "Si trasforma in una variabile globale.",
+            "D": "Viene eliminata immediatamente."
+        },
+        "correctAnswer": "B",
+        "explanation": "Le variabili statiche mantengono il loro valore anche dopo la conclusione della funzione."
+    },
+    {
+        "id": 196,
+        "question": "Quale dei seguenti tipi di dati in PHP rappresenta numeri con decimali?",
+        "options": {
+            "A": "Intero.",
+            "B": "Stringa.",
+            "C": "Float.",
+            "D": "Booleano."
+        },
+        "correctAnswer": "C",
+        "explanation": "Il tipo float gestisce numeri decimali e valori in notazione esponenziale."
+    },
+    {
+        "id": 197,
+        "question": "Quale tag HTML definisce un'intestazione della pagina?",
+        "options": {
+            "A": "<head>",
+            "B": "<header>",
+            "C": "<h1>",
+            "D": "<section>"
+        },
+        "correctAnswer": "B",
+        "explanation": "<header> è usato per sezioni di intestazione, mentre <head> gestisce i metadati."
+    },
+    {
+        "id": 198,
+        "question": "Come si associa un foglio di stile esterno in HTML?",
+        "options": {
+            "A": "<style src='style.css'>",
+            "B": "<link rel='stylesheet' href='style.css'>",
+            "C": "<css href='style.css'>",
+            "D": "<script src='style.css'>"
+        },
+        "correctAnswer": "B",
+        "explanation": "Questa è la sintassi corretta per collegare un file CSS esterno."
+    },
+    {
+        "id": 199,
+        "question": "Quale proprietà CSS definisce la spaziatura interna di un elemento?",
+        "options": {
+            "A": "Margin.",
+            "B": "Padding.",
+            "C": "Border.",
+            "D": "Spacing."
+        },
+        "correctAnswer": "B",
+        "explanation": "Padding gestisce la spaziatura interna, mentre Margin quella esterna."
+    },
+    {
+        "id": 200,
+        "question": "Cosa può fare il comando PHP echo?",
+        "options": {
+            "A": "Creare funzioni.",
+            "B": "Visualizzare dati.",
+            "C": "Dichiarare variabili.",
+            "D": "Collegare file esterni."
+        },
+        "correctAnswer": "B",
+        "explanation": "Echo viene utilizzato per mostrare valori sullo schermo, come testo o variabili."
+    },
+    {
+        "id": 201,
+        "question": "Quale affermazione descrive correttamente il ruolo dell'NLP e delle reti neurali Transformer nel funzionamento di ChatGPT?",
+        "options": {
+            "A": "L'NLP in ChatGPT si limita a tradurre il testo in linguaggi di programmazione, ignorando completamente il contesto.",
+            "B": "Le reti neurali Transformer utilizzano un modello lineare per generare risposte standardizzate, senza adattarsi al contesto.",
+            "C": "L'NLP e le reti neurali Transformer in ChatGPT permettono al sistema di comprendere il contesto del linguaggio umano e generare risposte naturali basate su un vasto corpus di testo.",
+            "D": "ChatGPT utilizza esclusivamente regole grammaticali rigide predefinite per generare le sue risposte, senza ricorrere all'apprendimento automatico."
+        },
+        "correctAnswer": "C",
+        "explanation": "ChatGPT utilizza NLP e reti neurali Transformer per analizzare sequenze linguistiche complesse, comprendere il contesto e produrre risposte naturali e pertinenti basate su un vasto corpus di testo."
+    },
+    {
+        "id": 202,
+        "question": "LISP è noto per introdurre un ambiente interattivo per l'esecuzione dei programmi. Quale delle seguenti affermazioni descrive correttamente una caratteristica distintiva del linguaggio?",
+        "options": {
+            "A": "LISP utilizza un compilatore che esegue tutte le espressioni in tempo reale senza mai generare bytecode.",
+            "B": "L'ambiente interattivo di LISP consente al programma principale di modificare la propria struttura durante l'esecuzione, elaborando nuove espressioni inserite dall'utente.",
+            "C": "LISP richiede una struttura rigida di programmazione basata su oggetti per supportare l'interattività.",
+            "D": "LISP non supporta l'interazione tra funzioni diverse durante l'esecuzione."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il REPL di LISP permette l'interazione dinamica con il programma, consentendo modifiche in tempo reale, ideale per sviluppo e debug."
+    },
+    {
+        "id": 203,
+        "question": "Quale concetto chiave del Deep Learning permette alle reti neurali di apprendere dai dati minimizzando gli errori?",
+        "options": {
+            "A": "Clustering.",
+            "B": "Data augmentation.",
+            "C": "Backpropagation.",
+            "D": "Feature extraction."
+        },
+        "correctAnswer": "C",
+        "explanation": "La backpropagation è un algoritmo che regola i pesi delle connessioni neurali, minimizzando gli errori durante l'addestramento."
+    },
+    {
+        "id": 204,
+        "question": "Qual è stato il primo dispositivo pratico a fornire esperienze di realtà virtuale immersive?",
+        "options": {
+            "A": "La Spada di Damocle.",
+            "B": "Sensorama.",
+            "C": "Oculus Quest.",
+            "D": "HTC Vive."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il Sensorama, creato da Morton Heilig, offriva esperienze VR coinvolgenti, combinando stimoli visivi, sonori e tattili."
+    },
+    {
+        "id": 205,
+        "question": "Quale tecnologia del Metaverso permette la proprietà digitale verificabile di asset come terreni virtuali?",
+        "options": {
+            "A": "Realtà virtuale.",
+            "B": "Blockchain e NFT.",
+            "C": "Intelligenza artificiale.",
+            "D": "Piattaforme AR."
+        },
+        "correctAnswer": "B",
+        "explanation": "Blockchain e NFT garantiscono proprietà e autenticità digitali, cruciali per la gestione di asset nel Metaverso."
+    },
+    {
+        "id": 206,
+        "question": "Quale tecnica di addestramento viene utilizzata durante il pretraining di un modello GPT?",
+        "options": {
+            "A": "Apprendimento supervisionato.",
+            "B": "Masked Language Modeling (MLM).",
+            "C": "Reinforcement Learning.",
+            "D": "Random Forest Training."
+        },
+        "correctAnswer": "B",
+        "explanation": "MLM nasconde parti del testo durante l'addestramento e richiede al modello di prevederle, migliorando la comprensione linguistica."
+    },
+    {
+        "id": 207,
+        "question": "Quale passaggio è cruciale per garantire l'uso sicuro ed etico di un GPT personalizzato?",
+        "options": {
+            "A": "Scegliere un set di dati multilingue.",
+            "B": "Configurare restrizioni per la privacy e la sicurezza dei dati.",
+            "C": "Ottimizzare il modello per il calcolo distribuito.",
+            "D": "Integrare funzioni per generare immagini."
+        },
+        "correctAnswer": "B",
+        "explanation": "Garantire la privacy e proteggere i dati sensibili è essenziale per l'uso etico e sicuro dei modelli GPT personalizzati."
+    },
+    {
+        "id": 208,
+        "question": "Qual è il formato principale usato da Pinokio per i suoi script?",
+        "options": {
+            "A": "XML.",
+            "B": "JSON.",
+            "C": "YAML.",
+            "D": "CSV."
+        },
+        "correctAnswer": "B",
+        "explanation": "Pinokio utilizza JSON, un formato strutturato, leggibile e modificabile, ideale per la gestione dei dati."
+    },
+    {
+        "id": 209,
+        "question": "Quale vantaggio offre l'architettura aperta di Pinokio rispetto a soluzioni chiuse nel contesto dell'automazione?",
+        "options": {
+            "A": "Riduce la necessità di script grazie all'automazione preconfigurata.",
+            "B": "Favorisce una vasta gamma di automazioni grazie a un ambiente altamente personalizzabile.",
+            "C": "Limita le possibilità di integrazione con applicazioni esterne per evitare conflitti.",
+            "D": "Rende obbligatorio l'uso di script proprietari per garantire compatibilità."
+        },
+        "correctAnswer": "B",
+        "explanation": "L'architettura aperta consente integrazioni e personalizzazioni illimitate grazie alla flessibilità degli script JSON."
+    },
+    {
+        "id": 210,
+        "question": "Chi ha anticipato il concetto di realtà virtuale con il dispositivo chiamato 'La Spada di Damocle'?",
+        "options": {
+            "A": "Morton Heilig.",
+            "B": "Ivan Sutherland.",
+            "C": "Neal Stephenson.",
+            "D": "William Gibson."
+        },
+        "correctAnswer": "B",
+        "explanation": "Ivan Sutherland, nel 1968, ha progettato 'La Spada di Damocle', un prototipo pionieristico di visore VR, aprendo la strada alla realtà virtuale moderna."
+    },
+    {
+        "id": 211,
+        "question": "Cos'è un sistema operativo?",
+        "options": {
+            "A": "Un hardware che controlla il computer.",
+            "B": "Un software che gestisce le risorse del computer.",
+            "C": "Una periferica di input/output.",
+            "D": "Un linguaggio di programmazione."
+        },
+        "correctAnswer": "B",
+        "explanation": "Un sistema operativo è il software di base che controlla e coordina le risorse hardware e software del computer."
+    },
+    {
+        "id": 212,
+        "question": "Quale dispositivo è considerato una memoria di massa?",
+        "options": {
+            "A": "RAM.",
+            "B": "Hard disk.",
+            "C": "CPU.",
+            "D": "BIOS."
+        },
+        "correctAnswer": "B",
+        "explanation": "Gli hard disk sono memorie permanenti utilizzate per archiviare grandi quantità di dati."
+    },
+    {
+        "id": 213,
+        "question": "Cosa rappresenta l'acronimo TCP/IP?",
+        "options": {
+            "A": "Transmission Communication Protocol / Internet Protocol.",
+            "B": "Transmission Control Protocol / Internet Protocol.",
+            "C": "Transferred Computer Protocol / Integrated Packet.",
+            "D": "Time Control Protocol / Internet Path."
+        },
+        "correctAnswer": "B",
+        "explanation": "TCP/IP è il protocollo base della comunicazione su Internet, gestendo il trasferimento e l'instradamento dei dati."
+    },
+    {
+        "id": 214,
+        "question": "Cosa permette il Time Sharing nei sistemi operativi?",
+        "options": {
+            "A": "L'esecuzione parallela di più lavori.",
+            "B": "La divisione della CPU tra più utenti.",
+            "C": "La gestione dei dispositivi di output.",
+            "D": "L'archiviazione di dati in memoria."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il Time Sharing divide il tempo della CPU in unità per fornire a più utenti l’impressione di accesso simultaneo."
+    },
+    {
+        "id": 215,
+        "question": "Cos'è un firmware?",
+        "options": {
+            "A": "Software permanente integrato nell'hardware.",
+            "B": "Un tipo di hardware di rete.",
+            "C": "Un'applicazione per l'elaborazione testi.",
+            "D": "Un dispositivo di memoria di massa."
+        },
+        "correctAnswer": "A",
+        "explanation": "Il firmware è un software preinstallato nei dispositivi per gestire il loro funzionamento."
+    },
+    {
+        "id": 216,
+        "question": "Qual è un esempio di dispositivo di output?",
+        "options": {
+            "A": "Scanner.",
+            "B": "Monitor.",
+            "C": "Mouse.",
+            "D": "Tastiera."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il monitor è un dispositivo di output perché trasmette informazioni dal computer all’utente."
+    },
+    {
+        "id": 217,
+        "question": "Quale struttura consente ai programmi di credere di avere più memoria disponibile?",
+        "options": {
+            "A": "Memoria virtuale.",
+            "B": "Cache.",
+            "C": "ROM.",
+            "D": "Register."
+        },
+        "correctAnswer": "A",
+        "explanation": "La memoria virtuale simula più memoria principale utilizzando lo spazio del disco rigido."
+    },
+    {
+        "id": 218,
+        "question": "Qual è una funzione primaria del kernel?",
+        "options": {
+            "A": "Gestire il BIOS.",
+            "B": "Comunicare tra hardware e software.",
+            "C": "Formattare il disco rigido.",
+            "D": "Installare applicazioni."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il kernel è il nucleo del sistema operativo che gestisce la comunicazione tra hardware e software."
+    },
+    {
+        "id": 219,
+        "question": "Quale tecnologia ha introdotto la connessione automatica delle periferiche?",
+        "options": {
+            "A": "Plug and Play.",
+            "B": "Time Sharing.",
+            "C": "Cloud Computing.",
+            "D": "BIOS."
+        },
+        "correctAnswer": "A",
+        "explanation": "Plug and Play consente al sistema operativo di configurare automaticamente nuove periferiche."
+    },
+    {
+        "id": 220,
+        "question": "Qual è una caratteristica dei sistemi embedded?",
+        "options": {
+            "A": "Costruiti per compiti generici.",
+            "B": "Progettati per compiti specifici.",
+            "C": "Integrano solo software di base.",
+            "D": "Utilizzano memoria volatile."
+        },
+        "correctAnswer": "B",
+        "explanation": "I sistemi embedded sono ottimizzati per svolgere una funzione specifica, come in smartphone o lettori MP3."
+    },
+    {
+        "id": 221,
+        "question": "Quale architettura utilizza un unico programma per gestire tutti i componenti di un OS?",
+        "options": {
+            "A": "Monolitica.",
+            "B": "Stratificata.",
+            "C": "Microkernel.",
+            "D": "Ibrida."
+        },
+        "correctAnswer": "B",
+        "explanation": "Nell'architettura stratificata, ogni livello svolge una funzione specifica e comunica solo con il livello adiacente."
+    },
+    {
+        "id": 222,
+        "question": "Cosa caratterizza un sistema operativo distribuito?",
+        "options": {
+            "A": "Gestisce una rete di calcolatori come una singola unità.",
+            "B": "È limitato a un solo computer.",
+            "C": "Non supporta reti client-server.",
+            "D": "Non utilizza CPU parallele."
+        },
+        "correctAnswer": "A",
+        "explanation": "Un sistema operativo distribuito coordina molteplici computer collegati in rete per lavorare come un unico sistema."
+    },
+    {
+        "id": 223,
+        "question": "Qual è il vantaggio principale dell'architettura a microkernel?",
+        "options": {
+            "A": "Maggiore velocità di elaborazione.",
+            "B": "Modularità e scalabilità.",
+            "C": "Archiviazione di grandi quantità di dati.",
+            "D": "Funzionamento senza interfaccia utente."
+        },
+        "correctAnswer": "B",
+        "explanation": "L'architettura a microkernel minimizza le funzioni nel kernel per migliorare modularità e scalabilità."
+    },
+    {
+        "id": 224,
+        "question": "Qual è la funzione di un bus dati?",
+        "options": {
+            "A": "Alimentare la CPU.",
+            "B": "Trasferire dati tra i componenti del computer.",
+            "C": "Connettere dispositivi di rete.",
+            "D": "Sincronizzare il clock del sistema."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il bus dati è un canale elettronico che trasferisce informazioni tra CPU, memoria e periferiche."
+    },
+    {
+        "id": 225,
+        "question": "Qual è un esempio di memoria non volatile?",
+        "options": {
+            "A": "RAM.",
+            "B": "Cache.",
+            "C": "ROM.",
+            "D": "Registri."
+        },
+        "correctAnswer": "C",
+        "explanation": "La ROM (Read Only Memory) conserva i dati anche quando il computer è spento."
+    },
+    {
+        "id": 226,
+        "question": "Quale protocollo è fondamentale per la comunicazione via Internet?",
+        "options": {
+            "A": "FTP.",
+            "B": "HTTP.",
+            "C": "TCP/IP.",
+            "D": "SMTP."
+        },
+        "correctAnswer": "C",
+        "explanation": "Il protocollo TCP/IP è utilizzato per la comunicazione tra dispositivi su Internet."
+    },
+    {
+        "id": 227,
+        "question": "Qual è il ruolo principale del BIOS in un computer?",
+        "options": {
+            "A": "Controllare le periferiche di output.",
+            "B": "Eseguire test hardware e caricare il sistema operativo.",
+            "C": "Migliorare la velocità della CPU.",
+            "D": "Archiviare dati temporanei."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il BIOS esegue test hardware (POST) e avvia il sistema operativo dal disco di avvio."
+    },
+    {
+        "id": 228,
+        "question": "Cosa distingue un'architettura stratificata?",
+        "options": {
+            "A": "Utilizza un unico livello di software.",
+            "B": "Suddivide le funzioni del sistema operativo in livelli gerarchici.",
+            "C": "Si basa su un unico programma monolitico.",
+            "D": "Supporta solo software open source."
+        },
+        "correctAnswer": "B",
+        "explanation": "Nell'architettura stratificata, le funzioni del sistema operativo sono organizzate in livelli per ottimizzare il funzionamento."
+    },
+    {
+        "id": 229,
+        "question": "Cos'è una System Call?",
+        "options": {
+            "A": "Una funzione che collega il kernel alle applicazioni.",
+            "B": "Un componente della CPU.",
+            "C": "Un protocollo di rete.",
+            "D": "Un metodo per aumentare la memoria RAM."
+        },
+        "correctAnswer": "A",
+        "explanation": "Le System Call permettono ai programmi applicativi di interagire con i servizi del sistema operativo."
+    },
+    {
+        "id": 230,
+        "question": "Quale tipo di sistema operativo utilizza più CPU per elaborazioni parallele?",
+        "options": {
+            "A": "Monolitico.",
+            "B": "Distribuito.",
+            "C": "Microkernel.",
+            "D": "Firmware."
+        },
+        "correctAnswer": "B",
+        "explanation": "I sistemi operativi distribuiti bilanciano il carico di lavoro tra più CPU per aumentare le prestazioni e la scalabilità."
+    },
+    {
+        "id": 231,
+        "question": "Qual è lo svantaggio principale dell'architettura monolitica?",
+        "options": {
+            "A": "La difficoltà di aggiornare singoli componenti senza compromettere l’intero sistema.",
+            "B": "La bassa velocità di esecuzione.",
+            "C": "L'impossibilità di supportare più utenti.",
+            "D": "La mancanza di modularità hardware."
+        },
+        "correctAnswer": "A",
+        "explanation": "Nell'architettura monolitica, tutti i componenti condividono lo stesso spazio di memoria, rendendo difficile separare e aggiornare singole parti."
+    },
+    {
+        "id": 232,
+        "question": "Cosa consente la memoria cache?",
+        "options": {
+            "A": "Memorizzare dati a lungo termine.",
+            "B": "Accedere rapidamente ai dati più frequentemente utilizzati.",
+            "C": "Connettere CPU e dispositivi periferici.",
+            "D": "Migliorare la grafica del sistema."
+        },
+        "correctAnswer": "B",
+        "explanation": "La memoria cache è una memoria veloce che conserva i dati frequentemente utilizzati dalla CPU."
+    },
+    {
+        "id": 233,
+        "question": "Qual è una caratteristica distintiva delle architetture microkernel?",
+        "options": {
+            "A": "Incorporano tutte le funzionalità in un unico kernel.",
+            "B": "Minimizzano le funzioni del kernel, lasciando il resto ai processi utente.",
+            "C": "Si basano esclusivamente su hardware dedicato.",
+            "D": "Utilizzano un solo livello di sistema."
+        },
+        "correctAnswer": "B",
+        "explanation": "Le architetture microkernel spostano gran parte delle funzionalità del sistema operativo nello spazio utente, mantenendo il kernel leggero e modulare."
+    },
+    {
+        "id": 234,
+        "question": "Cos'è un sistema operativo di rete (Network OS)?",
+        "options": {
+            "A": "Un sistema che gestisce risorse condivise su più computer collegati in rete.",
+            "B": "Un sistema operativo progettato solo per server.",
+            "C": "Un programma che aumenta la velocità di Internet.",
+            "D": "Un tipo di memoria secondaria."
+        },
+        "correctAnswer": "A",
+        "explanation": "Un Network OS coordina risorse su computer connessi in rete, bilanciando il carico e garantendo condivisione."
+    },
+    {
+        "id": 235,
+        "question": "Quale componente gestisce l'assegnazione della CPU ai processi?",
+        "options": {
+            "A": "BIOS.",
+            "B": "Scheduler.",
+            "C": "File system.",
+            "D": "Cache."
+        },
+        "correctAnswer": "B",
+        "explanation": "Lo scheduler applica ai processi le politiche di scheduling per l'assegnazione delle risorse, tra cui la CPU."
+    },
+    {
+        "id": 236,
+        "question": "Qual è una caratteristica dei sistemi distribuiti moderni?",
+        "options": {
+            "A": "Scalabilità e tolleranza agli errori.",
+            "B": "Supportano solo piccoli database.",
+            "C": "Richiedono un solo processore.",
+            "D": "Non utilizzano reti di calcolatori."
+        },
+        "correctAnswer": "A",
+        "explanation": "I sistemi distribuiti bilanciano il carico di lavoro e garantiscono resilienza contro errori hardware o software."
+    },
+    {
+        "id": 237,
+        "question": "Qual è il vantaggio principale di un'architettura ibrida?",
+        "options": {
+            "A": "Combina modularità e prestazioni elevate.",
+            "B": "Riduce drasticamente i costi hardware.",
+            "C": "Funziona solo con software open source.",
+            "D": "Non richiede aggiornamenti software."
+        },
+        "correctAnswer": "A",
+        "explanation": "Le architetture ibride uniscono i vantaggi dei microkernel e delle architetture monolitiche, migliorando modularità e prestazioni."
+    },
+    {
+        "id": 238,
+        "question": "Qual è il principale obiettivo del bilanciamento del carico in un sistema distribuito?",
+        "options": {
+            "A": "Evitare errori hardware.",
+            "B": "Massimizzare l’uso equo delle risorse disponibili.",
+            "C": "Eliminare la necessità di memoria condivisa.",
+            "D": "Aumentare la velocità della rete."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il bilanciamento del carico distribuisce il lavoro equamente tra le CPU per ottimizzare le prestazioni e ridurre i tempi di attesa."
+    },
+    {
+        "id": 239,
+        "question": "Quale metodo utilizza il kernel per proteggere le risorse hardware?",
+        "options": {
+            "A": "Firewall.",
+            "B": "Privilegi e politiche di gestione degli accessi.",
+            "C": "Driver dedicati.",
+            "D": "Aggiornamenti BIOS."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il kernel utilizza livelli di privilegio per limitare l’accesso diretto alle risorse hardware, garantendo sicurezza e stabilità."
+    },
+    {
+        "id": 240,
+        "question": "Cosa distingue un sistema operativo distribuito da un Network OS?",
+        "options": {
+            "A": "I sistemi distribuiti coordinano più CPU come un'unica unità.",
+            "B": "I sistemi distribuiti non supportano reti di calcolatori.",
+            "C": "I Network OS sono più complessi dei sistemi distribuiti.",
+            "D": "I Network OS funzionano solo su hardware proprietario."
+        },
+        "correctAnswer": "A",
+        "explanation": "Un sistema operativo distribuito tratta più CPU connesse come un unico sistema, garantendo coerenza e scalabilità."
+    },
+    {
+        "id": 241,
+        "question": "Che cosa viene suddiviso in pacchetti IP?",
+        "options": {
+            "A": "Musica",
+            "B": "Dati",
+            "C": "Indirizzi IP",
+            "D": "Testo casuale"
+        },
+        "correctAnswer": "B",
+        "explanation": "I dati vengono suddivisi in pacchetti per essere inviati sulla rete."
+    },
+    {
+        "id": 242,
+        "question": "Qual è il criterio principale per classificare le reti informatiche?",
+        "options": {
+            "A": "Il numero di dispositivi connessi",
+            "B": "La scala dimensionale",
+            "C": "La marca dei router",
+            "D": "Il tipo di software utilizzato"
+        },
+        "correctAnswer": "B",
+        "explanation": "Determinare la scala dimensionale aiuta a scegliere la topologia e tecnologia."
+    },
+    {
+        "id": 243,
+        "question": "Che cos'è una rete informatica?",
+        "options": {
+            "A": "Un sistema di nodi interconnessi tramite archi.",
+            "B": "Una rete televisiva.",
+            "C": "Un insieme di computer non connessi.",
+            "D": "Un sito web."
+        },
+        "correctAnswer": "A",
+        "explanation": "Una rete informatica è definita come un sistema di nodi interconnessi tramite archi."
+    },
+    {
+        "id": 244,
+        "question": "Che cosa rappresenta il termine 'Web 2.0'?",
+        "options": {
+            "A": "Una connessione internet più veloce.",
+            "B": "Un web leggibile e scrivibile dagli utenti.",
+            "C": "Un hardware avanzato.",
+            "D": "La fine di internet."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il Web 2.0 è definito come una piattaforma dove gli utenti possono creare contenuti."
+    },
+    {
+        "id": 245,
+        "question": "Cosa significa ISP?",
+        "options": {
+            "A": "Internet Support Provider.",
+            "B": "Internet Service Provider.",
+            "C": "Internal System Provider.",
+            "D": "Internet Software Platform."
+        },
+        "correctAnswer": "B",
+        "explanation": "ISP sta per 'Internet Service Provider', il fornitore di accesso alla rete."
+    },
+    {
+        "id": 246,
+        "question": "Che cosa sono i nodi in una rete?",
+        "options": {
+            "A": "Dispositivi che permettono la connessione a Internet.",
+            "B": "Macchine chiamate host che comunicano tra loro.",
+            "C": "Sistemi per bloccare la rete.",
+            "D": "Router e switch che forniscono connessione Wi-Fi."
+        },
+        "correctAnswer": "B",
+        "explanation": "I nodi in una rete sono macchine chiamate host, che comunicano tra loro."
+    },
+    {
+        "id": 247,
+        "question": "Qual è il primo elemento di un URL?",
+        "options": {
+            "A": "Il nome dell'host",
+            "B": "Il protocollo",
+            "C": "Il percorso della risorsa",
+            "D": "Il numero di porta"
+        },
+        "correctAnswer": "B",
+        "explanation": "Il protocollo, come HTTP o HTTPS, è il primo elemento che specifica come accedere alla risorsa."
+    },
+    {
+        "id": 248,
+        "question": "Cos'è il linguaggio HTML?",
+        "options": {
+            "A": "Un linguaggio di programmazione complesso",
+            "B": "Un linguaggio per creare link tra pagine web",
+            "C": "Un linguaggio per marcare il testo piano con istruzioni visualizzabili dal browser",
+            "D": "Un linguaggio utilizzato esclusivamente nei server"
+        },
+        "correctAnswer": "C",
+        "explanation": "HTML è un linguaggio per aggiungere marcatori a un testo piano, interpretati dal browser."
+    },
+    {
+        "id": 249,
+        "question": "Qual è il ruolo di un browser web?",
+        "options": {
+            "A": "Generare pagine web dal nulla",
+            "B": "Interpretare il codice HTML per visualizzare pagine",
+            "C": "Conservare tutte le pagine web nel server",
+            "D": "Connettere direttamente i dispositivi fisici"
+        },
+        "correctAnswer": "B",
+        "explanation": "Il browser interpreta il codice HTML per visualizzare correttamente le pagine web."
+    },
+    {
+        "id": 250,
+        "question": "Qual è lo scopo principale del protocollo HTTP?",
+        "options": {
+            "A": "Generare contenuti dinamici",
+            "B": "Definire come client e server comunicano tramite messaggi",
+            "C": "Analizzare il contenuto di pagine web",
+            "D": "Garantire la sicurezza dei dati trasmessi"
+        },
+        "correctAnswer": "B",
+        "explanation": "HTTP stabilisce le regole per lo scambio di messaggi tra client e server."
+    },
+    {
+        "id": 251,
+        "question": "Qual è la funzione del proxy?",
+        "options": {
+            "A": "Bloccare virus",
+            "B": "Instradare pacchetti",
+            "C": "Agire come intermediario",
+            "D": "Elaborare immagini"
+        },
+        "correctAnswer": "C",
+        "explanation": "Il proxy funge da intermediario per alleggerire il carico e migliorare la sicurezza."
+    },
+    {
+        "id": 252,
+        "question": "Qual è la principale caratteristica delle reti geografiche (WAN)?",
+        "options": {
+            "A": "Copertura locale",
+            "B": "Copertura globale",
+            "C": "Connessione senza cavi",
+            "D": "Tecnologia infrarossa"
+        },
+        "correctAnswer": "B",
+        "explanation": "Le WAN collegano nodi su lunghe distanze."
+    },
+    {
+        "id": 253,
+        "question": "Quali sono le due principali categorie di servizi forniti dalle reti informatiche?",
+        "options": {
+            "A": "Servizi di sicurezza e intrattenimento.",
+            "B": "Servizi di comunicazione e di condivisione delle risorse.",
+            "C": "Servizi di archiviazione e manutenzione.",
+            "D": "Servizi di stampa e grafica."
+        },
+        "correctAnswer": "B",
+        "explanation": "Le reti informatiche offrono principalmente servizi di comunicazione e condivisione delle risorse."
+    },
+    {
+        "id": 254,
+        "question": "Qual è stato il contributo del World Wide Web Consortium (W3C)?",
+        "options": {
+            "A": "Sviluppare tecnologie di crittografia.",
+            "B": "Definire standard aperti per il web.",
+            "C": "Creare reti di social network.",
+            "D": "Progettare il primo browser."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il W3C si occupa di mantenere il web libero e standardizzato."
+    },
+    {
+        "id": 255,
+        "question": "Qual è il nucleo centrale di Internet?",
+        "options": {
+            "A": "Un insieme di server aziendali.",
+            "B": "Una rete magliata di router interconnessi ad alta velocità.",
+            "C": "Dispositivi personali connessi.",
+            "D": "Satelliti geostazionari."
+        },
+        "correctAnswer": "B",
+        "explanation": "Il nucleo centrale è composto da router interconnessi per instradare i dati rapidamente."
+    },
+    {
+        "id": 256,
+        "question": "Quali dispositivi facilitano la comunicazione tra i nodi?",
+        "options": {
+            "A": "Host e server.",
+            "B": "Router, switch e access point.",
+            "C": "Modem e TV.",
+            "D": "Antenne satellitari e computer."
+        },
+        "correctAnswer": "B",
+        "explanation": "Router, switch e access point facilitano la comunicazione tra i nodi nella rete."
+    },
+    {
+        "id": 257,
+        "question": "Qual è la differenza principale tra IPv4 e IPv6?",
+        "options": {
+            "A": "L'IPv6 ha un numero maggiore di porte",
+            "B": "L'IPv4 utilizza 32 bit, mentre l'IPv6 utilizza 128 bit",
+            "C": "L'IPv4 supporta indirizzi unicast, mentre l'IPv6 no",
+            "D": "L'IPv6 è usato solo per dispositivi mobili"
+        },
+        "correctAnswer": "B",
+        "explanation": "IPv6 ha una capacità di trasmissione superiore a IPv4, poiché utilizza indirizzi a 128 bit."
+    },
+    {
+        "id": 258,
+        "question": "Cosa indica il termine Web 2.0?",
+        "options": {
+            "A": "Un web statico",
+            "B": "Un web dinamico con contenuti generati dagli utenti",
+            "C": "La nascita dei browser grafici",
+            "D": "Un nuovo protocollo di rete"
+        },
+        "correctAnswer": "B",
+        "explanation": "Il Web 2.0 descrive una fase in cui gli utenti potevano creare e condividere contenuti."
+    },
+    {
+        "id": 259,
+        "question": "Cosa significa che il protocollo HTTP è 'stateless'?",
+        "options": {
+            "A": "Non memorizza informazioni sulle richieste precedenti",
+            "B": "Conserva sempre i dati dell'utente",
+            "C": "Richiede la memorizzazione di tutti i dati sui client",
+            "D": "Memorizza lo stato del browser"
+        },
+        "correctAnswer": "A",
+        "explanation": "HTTP non mantiene informazioni di stato sul client dopo aver elaborato una richiesta."
+    },
+    {
+        "id": 260,
+        "question": "Qual è la principale differenza tra pagine statiche e dinamiche?",
+        "options": {
+            "A": "Le pagine dinamiche non richiedono connessioni HTTP",
+            "B": "Le pagine statiche sono generate da programmi lato server",
+            "C": "Le pagine dinamiche sono generate al momento in base a programmi",
+            "D": "Le pagine statiche utilizzano sempre database"
+        },
+        "correctAnswer": "C",
+        "explanation": "Le pagine dinamiche sono generate al momento in risposta alle richieste dell'utente."
+    },
+    {
+        "id": 261,
+        "question": "Qual è il protocollo principale utilizzato per l'invio di email?",
+        "options": {
+            "A": "FTP",
+            "B": "SMTP",
+            "C": "HTTP",
+            "D": "POP3"
+        },
+        "correctAnswer": "B",
+        "explanation": "SMTP (Simple Mail Transfer Protocol) è il protocollo standard per l'invio di email tra server."
+    },
+    {
+        "id": 262,
+        "question": "Qual è la funzione principale di un firewall?",
+        "options": {
+            "A": "Aumentare la velocità della rete",
+            "B": "Bloccare accessi non autorizzati",
+            "C": "Gestire indirizzi IP",
+            "D": "Creare copie di backup"
+        },
+        "correctAnswer": "B",
+        "explanation": "Il firewall protegge la rete monitorando e controllando il traffico in entrata e in uscita."
+    },
+    {
+        "id": 263,
+        "question": "Qual è la caratteristica principale della memoria volatile?",
+        "options": {
+            "A": "Mantiene i dati anche senza alimentazione elettrica",
+            "B": "Perde i dati quando viene tolta l'alimentazione",
+            "C": "È utilizzata solo per l'archiviazione permanente",
+            "D": "Non è accessibile dalla CPU"
+        },
+        "correctAnswer": "B",
+        "explanation": "La memoria volatile, come la RAM, perde i dati quando non è alimentata."
+    },
+    {
+        "id": 264,
+        "question": "Che cosa rappresenta un indirizzo IP?",
+        "options": {
+            "A": "Un indirizzo fisico della scheda di rete",
+            "B": "Un identificatore unico di un dispositivo su una rete",
+            "C": "Un protocollo per il trasferimento di file",
+            "D": "Un codice per crittografare i dati"
+        },
+        "correctAnswer": "B",
+        "explanation": "Un indirizzo IP identifica in modo univoco un dispositivo su una rete."
+    },
+    {
+        "id": 265,
+        "question": "Qual è l'obiettivo principale della crittografia?",
+        "options": {
+            "A": "Accelerare il trasferimento dei dati",
+            "B": "Proteggere le informazioni garantendo riservatezza e integrità",
+            "C": "Comprimere i file per il trasferimento",
+            "D": "Creare backup automatici"
+        },
+        "correctAnswer": "B",
+        "explanation": "La crittografia assicura che solo i destinatari autorizzati possano accedere alle informazioni."
+    },
+    {
+        "id": 266,
+        "question": "Qual è il formato standard per la trasmissione di dati nel Web semantico?",
+        "options": {
+            "A": "JSON",
+            "B": "XML",
+            "C": "RDF",
+            "D": "SQL"
+        },
+        "correctAnswer": "C",
+        "explanation": "RDF (Resource Description Framework) è il formato standard per descrivere dati nel Web semantico."
+    },
+    {
+        "id": 267,
+        "question": "Che cos'è un DNS (Domain Name System)?",
+        "options": {
+            "A": "Un sistema per gestire le connessioni Wi-Fi",
+            "B": "Un protocollo per trasferire dati",
+            "C": "Un sistema per tradurre nomi di dominio in indirizzi IP",
+            "D": "Un algoritmo di compressione"
+        },
+        "correctAnswer": "C",
+        "explanation": "Il DNS traduce i nomi di dominio (es. www.esempio.com) in indirizzi IP leggibili dalla rete."
+    },
+    {
+        "id": 268,
+        "question": "Qual è il vantaggio principale dell'utilizzo di una VPN?",
+        "options": {
+            "A": "Migliora la velocità di connessione",
+            "B": "Garantisce maggiore privacy e sicurezza",
+            "C": "Riduce il consumo di dati mobili",
+            "D": "Blocca pubblicità indesiderate"
+        },
+        "correctAnswer": "B",
+        "explanation": "Una VPN (Virtual Private Network) protegge i dati crittografando la connessione e nascondendo l'indirizzo IP."
+    },
+    {
+        "id": 269,
+        "question": "Qual è la funzione principale di un server web?",
+        "options": {
+            "A": "Memorizzare dati in modo permanente",
+            "B": "Fornire pagine web ai client che le richiedono",
+            "C": "Creare database dinamici",
+            "D": "Eseguire programmi lato client"
+        },
+        "correctAnswer": "B",
+        "explanation": "Un server web invia contenuti richiesti dai browser dei client, come pagine HTML."
+    },
+    {
+        "id": 270,
+        "question": "Che cosa indica il termine \"cloud storage\"?",
+        "options": {
+            "A": "La memorizzazione di dati in dispositivi locali",
+            "B": "L'archiviazione di dati su server remoti accessibili via Internet",
+            "C": "L'archiviazione temporanea di dati",
+            "D": "La crittografia di file in locale"
+        },
+        "correctAnswer": "B",
+        "explanation": "Il cloud storage permette di archiviare e accedere ai dati su server remoti tramite Internet."
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
