@@ -1,7 +1,7 @@
 let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
-const totalQuestions = 30; // Numero totale di domande per quiz
+const totalQuestions = 30;
 
 // Funzione per mescolare un array
 function shuffle(array) {
@@ -12,7 +12,20 @@ function shuffle(array) {
     return array;
 }
 
-// Seleziona casualmente un numero specifico di elementi da un array
+// Seleziona una domanda casuale da ciascun blocco di 10
+function getQuestionsByBlocks(data, blockSize) {
+    const selected = [];
+    for (let i = 0; i < data.length; i += blockSize) {
+        const block = data.slice(i, i + blockSize);
+        if (block.length > 0) {
+            const randomQuestion = shuffle(block)[0];
+            selected.push(randomQuestion);
+        }
+    }
+    return selected;
+}
+
+// Seleziona casualmente un numero specifico di domande da un array
 function getRandomQuestions(group, count) {
     return shuffle(group).slice(0, count);
 }
@@ -21,22 +34,14 @@ function getRandomQuestions(group, count) {
 fetch('question.json')
     .then(response => response.json())
     .then(data => {
-        // Suddividi le domande nei quattro gruppi
-        const group1 = data.slice(0, 70); // Domande 1-70
-        const group2 = data.slice(70, 140); // Domande 71-140
-        const group3 = data.slice(140, 210); // Domande 141-210
-        const group4 = data.slice(210, 270); // Domande 211-270
+        // Seleziona 27 domande, una per blocco di 10
+        const questionsFromBlocks = getQuestionsByBlocks(data, 10);
 
-        // Seleziona casualmente le domande dai gruppi
-        const selectedQuestions = [
-            ...getRandomQuestions(group1, 6),  // 6 domande dal gruppo 1
-            ...getRandomQuestions(group2, 7), // 7 domande dal gruppo 2
-            ...getRandomQuestions(group3, 10), // 10 domande dal gruppo 3
-            ...getRandomQuestions(group4, 7)  // 7 domande dal gruppo 4
-        ];
+        // Seleziona 3 domande casuali dall'intervallo 141-210 (indice 140-209)
+        const questionsFromSpecificBlock = getRandomQuestions(data.slice(140, 210), 3);
 
-        // Mescola le domande selezionate
-        questions = shuffle(selectedQuestions);
+        // Combina e mescola le domande
+        questions = shuffle([...questionsFromBlocks, ...questionsFromSpecificBlock]);
 
         startQuiz();
     })
@@ -49,7 +54,7 @@ function startQuiz() {
     document.getElementById('final-score').textContent = '';
     document.getElementById('result').classList.add('hidden');
     document.getElementById('quiz-container').classList.remove('hidden');
-    document.getElementById('feedback').textContent = ''; // Resetta il feedback
+    document.getElementById('feedback').textContent = '';
     showQuestion();
 }
 
@@ -64,12 +69,11 @@ function showQuestion() {
     document.getElementById('question').textContent = question.question;
     const answersElement = document.getElementById('answers');
     answersElement.innerHTML = ''; // Reset delle risposte
-    document.getElementById('feedback').textContent = ''; // Nasconde feedback precedente
+    document.getElementById('feedback').textContent = '';
 
-    // Visualizza le risposte senza lettere precedenti
     Object.entries(question.options).forEach(([key, answer]) => {
         const button = document.createElement('button');
-        button.textContent = `${answer}`; // Mostra solo la risposta
+        button.textContent = answer;
         button.addEventListener('click', () => checkAnswer(key));
         answersElement.appendChild(button);
     });
@@ -77,7 +81,7 @@ function showQuestion() {
     document.getElementById('question-counter').textContent = `Domanda ${currentQuestionIndex + 1} di ${totalQuestions}`;
 }
 
-// Controlla se la risposta selezionata è corretta
+// Controlla se la risposta è corretta
 function checkAnswer(selectedKey) {
     const question = questions[currentQuestionIndex];
     const answers = document.querySelectorAll('.answers button');
@@ -85,7 +89,7 @@ function checkAnswer(selectedKey) {
         button.disabled = true;
         if (button.textContent === question.options[question.correctAnswer]) {
             button.classList.add('correct');
-        } else if (question.options[selectedKey] === button.textContent) {
+        } else if (button.textContent === question.options[selectedKey]) {
             button.classList.add('incorrect');
         }
     });
@@ -94,24 +98,20 @@ function checkAnswer(selectedKey) {
         score++;
     }
 
-    // Mostra solo la spiegazione come feedback
-    const feedbackElement = document.getElementById('feedback');
-    feedbackElement.textContent = question.explanation;
-
-    // Mostra il pulsante per proseguire
+    document.getElementById('feedback').textContent = question.explanation;
     document.getElementById('next-question').classList.remove('hidden');
 }
 
-// Passa alla domanda successiva manualmente
+// Passa alla domanda successiva
 document.getElementById('next-question').addEventListener('click', () => {
     currentQuestionIndex++;
+    document.getElementById('next-question').classList.add('hidden');
     showQuestion();
 });
 
-// Mostra i risultati finali solo alla fine
+// Mostra i risultati finali
 function endGame() {
     document.getElementById('quiz-container').classList.add('hidden');
-    document.getElementById('result').classList.remove('hidden'); // Mostra il risultato
+    document.getElementById('result').classList.remove('hidden');
     document.getElementById('final-score').textContent = `Game Over! Hai totalizzato ${score} punti su ${totalQuestions}!`;
 }
-
