@@ -12,7 +12,7 @@ function shuffle(array) {
     return array;
 }
 
-// Seleziona casualmente una domanda da ciascun blocco di 10
+// Seleziona una domanda casuale da ciascun blocco di 10
 function getQuestionsByBlocks(data, blockSize) {
     const selected = [];
     for (let i = 0; i < data.length; i += blockSize) {
@@ -33,7 +33,7 @@ fetch('question.json')
     .then(response => response.json())
     .then(data => {
         // Suddividi le domande in blocchi di 10 e seleziona 27 domande
-        const questionsFromBlocks = getQuestionsByBlocks(data, 10); // Una domanda da ogni blocco di 10
+        const questionsFromBlocks = getQuestionsByBlocks(data, 10); // Una domanda per ogni blocco di 10
 
         // Seleziona 3 domande casuali dal blocco 141-210 (indice 140-209)
         const questionsFromSpecificBlock = getRandomQuestions(data.slice(140, 210), 3);
