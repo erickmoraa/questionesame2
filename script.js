@@ -72,7 +72,7 @@ function showQuestion() {
     // Visualizza le risposte senza lettere precedenti
     Object.entries(question.options).forEach(([key, answer]) => {
         const button = document.createElement('button');
-        button.textContent = `${answer}`; // Mostra solo la risposta
+        button.textContent = answer; // Mostra solo la risposta
         button.addEventListener('click', () => checkAnswer(key));
         answersElement.appendChild(button);
     });
@@ -88,7 +88,7 @@ function checkAnswer(selectedKey) {
         button.disabled = true;
         if (button.textContent === question.options[question.correctAnswer]) {
             button.classList.add('correct');
-        } else if (question.options[selectedKey] === button.textContent) {
+        } else if (button.textContent === question.options[selectedKey]) {
             button.classList.add('incorrect');
         }
     });
@@ -115,5 +115,5 @@ document.getElementById('next-question').addEventListener('click', () => {
 function endGame() {
     document.getElementById('quiz-container').classList.add('hidden');
     document.getElementById('result').classList.remove('hidden'); // Mostra il risultato
-    document.getElementById('final-score').textContent = `Game Over! Hai totalizzato ${score} punti su ${totalQuestions}!`;
+    document.getElementById('final-score').textContent = score;
 }
