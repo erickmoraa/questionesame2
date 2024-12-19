@@ -1210,6 +1210,116 @@
     "feedback": "Con 32 bit, il range dei numeri rappresentabili in complemento a 2 include il valore +65535."
   },
   {
+    "id": 111,
+    "question": "Nella rappresentazione binaria dei numeri relativi, in complemento a 2 tramite 8 bit, è possibile rappresentare questa operazione (-100) + (-200) = -300?",
+    "options": {
+      "a": "Sì, è possibile rappresentare il risultato",
+      "b": "L'operazione genera un overflow",
+      "c": "Non è possibile perché entrambi gli operandi non sono rappresentabili"
+    },
+    "correct_answer": "c",
+    "feedback": "Con 8 bit, il range dei numeri rappresentabili non include né -100 né -200, rendendo l’operazione impossibile."
+  },
+  {
+    "id": 112,
+    "question": "Nella rappresentazione binaria dei numeri relativi, in complemento a 2 tramite 8 bit, è possibile rappresentare questa operazione (+1000) + (-2000) = -1000?",
+    "options": {
+      "a": "Sì, il risultato è rappresentabile",
+      "b": "L'operazione genera un underflow",
+      "c": "Non è possibile perché uno degli operandi non è rappresentabile"
+    },
+    "correct_answer": "c",
+    "feedback": "Con 8 bit, il valore +1000 eccede il range rappresentabile, rendendo impossibile l’operazione."
+  },
+  {
+    "id": 113,
+    "question": "Un supporto di memorizzazione DVD RW è sempre un’unità di memoria tipo?",
+    "options": {
+      "a": "Scrivibile una volta / leggibile più volte",
+      "b": "Scrivibile più volte / leggibile più volte",
+      "c": "Solo leggibile"
+    },
+    "correct_answer": "b",
+    "feedback": "Un DVD RW (ReWritable) può essere scritto e riscritto più volte, mantenendo la possibilità di lettura."
+  },
+  {
+    "id": 114,
+    "question": "Un supporto di memorizzazione CD R è sempre un’unità di memoria tipo?",
+    "options": {
+      "a": "Scrivibile una volta / leggibile più volte",
+      "b": "Scrivibile e riscrivibile illimitatamente",
+      "c": "Non leggibile"
+    },
+    "correct_answer": "a",
+    "feedback": "Un CD R (Recordable) consente una sola scrittura, ma può essere letto più volte."
+  },
+  {
+    "id": 115,
+    "question": "Un bus è un insieme di piste di comunicazione elettriche che connette due o più dispositivi hardware (detti “device”):",
+    "options": {
+      "a": "VERO",
+      "b": "FALSO",
+      "c": "Non lo so"
+    },
+    "correct_answer": "a",
+    "feedback": "Il bus è un sistema che collega e consente la comunicazione tra i componenti hardware di un computer."
+  },
+  {
+    "id": 116,
+    "question": "Il MIPS (million instructions per second) è l’unità di misura con cui vengono calcolate le prestazioni della CPU:",
+    "options": {
+      "a": "VERO",
+      "b": "FALSO",
+      "c": "Non lo so"
+    },
+    "correct_answer": "a",
+    "feedback": "MIPS è una metrica per misurare la capacità di una CPU di eseguire milioni di istruzioni al secondo."
+  },
+  {
+    "id": 117,
+    "question": "La CPU (central processing unit) esegue i programmi contenuti nel calcolatore e comanda le altre parti del calcolatore:",
+    "options": {
+      "a": "VERO",
+      "b": "FALSO",
+      "c": "Non lo so"
+    },
+    "correct_answer": "a",
+    "feedback": "La CPU è il cuore del calcolatore, responsabile dell'esecuzione dei programmi e del controllo delle altre componenti hardware."
+  },
+  {
+    "id": 118,
+    "question": "Le unità periferiche di ingresso (INPUT) permettono al computer di ricevere informazioni digitali dall’esterno:",
+    "options": {
+      "a": "VERO",
+      "b": "FALSO",
+      "c": "Non lo so"
+    },
+    "correct_answer": "a",
+    "feedback": "Le periferiche di input, come tastiera e mouse, consentono al computer di ricevere dati dagli utenti."
+  },
+  {
+    "id": 119,
+    "question": "Nella rappresentazione binaria dei numeri relativi, in complemento a 2 tramite 18 bit, è possibile rappresentare il numero decimale intero negativo -128?",
+    "options": {
+      "a": "Sì, è possibile",
+      "b": "No, il valore è fuori range",
+      "c": "Non lo so"
+    },
+    "correct_answer": "a",
+    "feedback": "Con 18 bit, il range rappresentabile in complemento a 2 include il valore -128."
+  },
+  {
+    "id": 120,
+    "question": "Nella rappresentazione binaria dei numeri relativi, in complemento a 2 tramite 16 bit, è possibile rappresentare questa operazione (-21000) + 19000 = -2000?",
+    "options": {
+      "a": "Sì, è possibile",
+      "b": "No, il risultato genera overflow",
+      "c": "Non lo so"
+    },
+    "correct_answer": "a",
+    "feedback": "Con 16 bit, il range consente di rappresentare sia gli operandi che il risultato dell’operazione."
+  },
+  {
     "id": 121,
     "question": "Il numero binario 0011110 può essere interpretato come:",
     "options": {
@@ -1318,7 +1428,7 @@
     },
     "correct_answer": "c",
     "feedback": "Un terabyte equivale a 2^40, cioè 1.099.511.627.776 byte."
-  },[
+  },
   {
     "id": 131,
     "question": "Cos’è il web 2.0?",
@@ -1428,7 +1538,218 @@
     },
     "correct_answer": "a",
     "feedback": "Il valore -31000 è rappresentabile in complemento a 2 con 16 bit."
+  },
+  {
+    "id": 141,
+    "question": "Un’interfaccia standard di tipo seriale permette l’uso di linee parallele di trasmissione veloci in cui una sequenza di byte viene mandata in contemporanea su tali linee:",
+    "options": {
+      "a": "FALSO",
+      "b": "VERO",
+      "c": "Non lo so"
+    },
+    "correct_answer": "a",
+    "feedback": "Le interfacce seriali trasmettono i dati un bit alla volta in sequenza, non contemporaneamente su linee parallele."
+  },
+  {
+    "id": 142,
+    "question": "Chi tra i pionieri dell’informatica definì l’importanza dei percorsi di tipo associativo che collegano?",
+    "options": {
+      "a": "Alan Turing",
+      "b": "Ada Lovelace",
+      "c": "Bush, con il progetto Memex"
+    },
+    "correct_answer": "c",
+    "feedback": "Vannevar Bush sviluppò il concetto di Memex, un dispositivo ipotetico per organizzare e recuperare informazioni mediante percorsi associativi."
+  },
+  {
+    "id": 143,
+    "question": "La memoria centrale di un calcolatore è destinata a contenere tanti dati che devono essere conservati in modo permanente?",
+    "options": {
+      "a": "FALSO",
+      "b": "VERO",
+      "c": "Non lo so"
+    },
+    "correct_answer": "a",
+    "feedback": "La memoria centrale (RAM) è volatile e non conserva i dati in modo permanente."
+  },
+  {
+    "id": 144,
+    "question": "Nella memoria centrale le unità di memorizzazione minime indirizzabili di solito organizzate in 8, 16, 32 o 64 bit sono chiamate:",
+    "options": {
+      "a": "Blocchi",
+      "b": "Celle",
+      "c": "Cluster"
+    },
+    "correct_answer": "b",
+    "feedback": "Le celle sono le unità fondamentali di memorizzazione della memoria centrale."
+  },
+  {
+    "id": 145,
+    "question": "Il tempo macchina del PC si chiama “clock” e si misura in cicli. La velocità dei processori (CPU e CORE) è misurata in GHz (miliardi di cicli al secondo). Una CPU interna che funziona a 2GHz ha un ciclo che dura:",
+    "options": {
+      "a": "1 microsecondo",
+      "b": "1 millisecondo",
+      "c": "0,5 nanosecondi"
+    },
+    "correct_answer": "c",
+    "feedback": "Un processore da 2 GHz esegue 2 miliardi di cicli al secondo, il che significa che ogni ciclo dura 0,5 nanosecondi."
+  },
+  {
+    "id": 146,
+    "question": "Una memoria di 2MB organizzata a parole di 4B (32 bit) può contenere una parola all’indirizzo di memoria corrispondente?",
+    "options": {
+      "a": "Sì",
+      "b": "NO",
+      "c": "Non lo so"
+    },
+    "correct_answer": "b",
+    "feedback": "La capacità totale della memoria non consente di raggiungere l'indirizzo richiesto."
+  },
+  {
+    "id": 147,
+    "question": "Una memoria di 2KB organizzata a parole di 8B (64 bit) può contenere una parola all’indirizzo di memoria a 2^22?",
+    "options": {
+      "a": "Sì",
+      "b": "NO",
+      "c": "Non lo so"
+    },
+    "correct_answer": "b",
+    "feedback": "L'indirizzo 2^22 supera la capacità massima della memoria specificata."
+  },
+  {
+    "id": 148,
+    "question": "Una memoria di 4GB organizzata a parole di 8B (64 bit) può contenere una parola all’indirizzo di memoria corrispondente a 2^34?",
+    "options": {
+      "a": "Sì",
+      "b": "NO",
+      "c": "Non lo so"
+    },
+    "correct_answer": "b",
+    "feedback": "La memoria di 4 GB organizzata in parole di 8 B non può rappresentare un indirizzo così elevato."
+  },
+  {
+    "id": 149,
+    "question": "Una memoria di 4MB organizzata a parole di 8B (64 bit) può contenere una parola all’indirizzo di memoria a 2^4?",
+    "options": {
+      "a": "Sì",
+      "b": "No",
+      "c": "Non lo so"
+    },
+    "correct_answer": "a",
+    "feedback": "Con 4MB organizzati a parole di 8B, è possibile raggiungere l'indirizzo 2^4, che rientra nella capacità della memoria."
+  },
+  {
+    "id": 150,
+    "question": "Il termine cache indica:",
+    "options": {
+      "a": "Una memoria esterna utilizzata per archiviazione dati a lungo termine",
+      "b": "Il tipo di memoria di transito tra CPU e memoria principale, caratterizzata in livelli a seconda del rapporto dimensione/velocità/costo",
+      "c": "Una tecnologia di rete per la trasmissione di pacchetti"
+    },
+    "correct_answer": "b",
+    "feedback": "La cache è una memoria temporanea veloce usata per ridurre il tempo di accesso ai dati frequentemente utilizzati dalla CPU."
+  },
+  {
+    "id": 151,
+    "question": "Quali delle seguenti frasi interpreta la regola di produzione <sequenza cifre>: <cifra> | <cifra> <sequenza cifre>?",
+    "options": {
+      "a": "Una sequenza di simboli non numerici",
+      "b": "Una cifra seguita sempre da un punto decimale",
+      "c": "Una sequenza di cifre numeriche è derivabile come una cifra oppure una cifra seguita da una sequenza di cifre"
+    },
+    "correct_answer": "c",
+    "feedback": "La regola rappresenta una definizione ricorsiva per costruire una sequenza numerica, basandosi su singole cifre."
+  },
+  {
+    "id": 152,
+    "question": "Per quale motivo il simbolo terminale 0 è trattato separatamente dagli altri?",
+    "options": {
+      "a": "Per ridurre la lunghezza delle sequenze binarie",
+      "b": "Per rappresentare simboli non numerici",
+      "c": "Per evitare che numeri a più cifre inizino con 0"
+    },
+    "correct_answer": "c",
+    "feedback": "Il simbolo 0 viene trattato separatamente per prevenire errori nell'interpretazione dei numeri con cifre iniziali nulle."
+  },
+  {
+    "id": 153,
+    "question": "In un diagramma di flusso il blocco decisionale è rappresentato:",
+    "options": {
+      "a": "Da un rombo",
+      "b": "Da un rettangolo",
+      "c": "Da un cerchio"
+    },
+    "correct_answer": "a",
+    "feedback": "Il blocco decisionale utilizza un rombo per rappresentare un punto decisionale con percorsi diversi."
+  },
+  {
+    "id": 154,
+    "question": "In un diagramma di flusso il blocco di azione è rappresentato:",
+    "options": {
+      "a": "Da un rombo",
+      "b": "Da un rettangolo",
+      "c": "Da una freccia"
+    },
+    "correct_answer": "b",
+    "feedback": "Il rettangolo rappresenta un’azione o un'operazione eseguibile nel diagramma di flusso."
+  },
+  {
+    "id": 155,
+    "question": "I codici di una risposta HTTP sono identificati da:",
+    "options": {
+      "a": "Simboli alfabetici",
+      "b": "Valori binari",
+      "c": "Un numero positivo"
+    },
+    "correct_answer": "c",
+    "feedback": "I codici HTTP sono numeri positivi che indicano lo stato delle richieste web (es.: 200 per successo, 404 per non trovato)."
+  },
+  {
+    "id": 156,
+    "question": "Un server web è in attesa di:",
+    "options": {
+      "a": "Messaggi di posta elettronica",
+      "b": "Segnali di errore dalla rete",
+      "c": "Richieste HTTP"
+    },
+    "correct_answer": "c",
+    "feedback": "Un server web ascolta richieste HTTP dai client per fornire risposte appropriate, come pagine web o dati."
+  },
+  {
+    "id": 157,
+    "question": "Una periferica è output quando manda fuori i dati verso la scheda madre:",
+    "options": {
+      "a": "FALSO",
+      "b": "VERO",
+      "c": "Non lo so"
+    },
+    "correct_answer": "a",
+    "feedback": "Una periferica output invia dati verso l'esterno, come monitor o stampanti, e non verso la scheda madre."
+  },
+  {
+    "id": 158,
+    "question": "La codifica dell’informazione è la trasformazione dell’informazione stessa mediante una rappresentazione (codice) composta da simboli interpretati da una macchina:",
+    "options": {
+      "a": "VERO",
+      "b": "FALSO",
+      "c": "Non lo so"
+    },
+    "correct_answer": "a",
+    "feedback": "La codifica dell'informazione consente alle macchine di elaborare e interpretare dati tramite simboli specifici."
+  },
+  {
+    "id": 159,
+    "question": "Nella rappresentazione binaria dei numeri relativi in complemento a 2 tramite 8 bit, è possibile rappresentare il numero decimale intero negativo -140?",
+    "options": {
+      "a": "Non è possibile perché genera un underflow/overflow",
+      "b": "Sì, è rappresentabile",
+      "c": "Non lo so"
+    },
+    "correct_answer": "a",
+    "feedback": "Con 8 bit, il range rappresentabile in complemento a 2 va da -128 a +127; il valore -140 eccede tale range."
   }
 ]
+
+
 
 
