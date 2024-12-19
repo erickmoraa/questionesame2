@@ -16,7 +16,7 @@ function shuffle(array) {
 fetch('question.json')
     .then(response => response.json())
     .then(data => {
-        questions = shuffle(data).slice(0, totalQuestions); // Mescola e seleziona le prime N domande
+        questions = shuffle(data).slice(0, totalQuestions); // Mescola e seleziona casualmente
         startQuiz();
     })
     .catch(error => console.error('Errore nel caricamento del file JSON:', error));
@@ -47,7 +47,7 @@ function showQuestion() {
 
     Object.entries(question.options).forEach(([key, answer]) => {
         const button = document.createElement('button');
-        button.textContent = answer; // Mostra solo la risposta
+        button.textContent = answer;
         button.addEventListener('click', () => checkAnswer(key));
         answersElement.appendChild(button);
     });
@@ -59,14 +59,11 @@ function showQuestion() {
 function checkAnswer(selectedKey) {
     const question = questions[currentQuestionIndex];
     const answers = document.querySelectorAll('.answers button');
-    answers.forEach(button => {
-        button.disabled = true;
-        if (button.textContent === question.options[question.correct_answer]) {
-            button.classList.add('correct');
-        } else if (button.textContent === question.options[selectedKey]) {
-            button.classList.add('incorrect');
-        }
-    });
+    answers.forEach(button => button.disabled = true); // Disabilita tutti i pulsanti
+
+    // Evidenzia solo la risposta corretta
+    const correctButton = [...answers].find(button => button.textContent === question.options[question.correct_answer]);
+    if (correctButton) correctButton.classList.add('correct');
 
     if (selectedKey === question.correct_answer) {
         score++;
@@ -89,4 +86,3 @@ function endGame() {
     document.getElementById('result').classList.remove('hidden');
     document.getElementById('final-score').textContent = `Game Over! Hai totalizzato ${score} punti su ${totalQuestions}!`;
 }
-
